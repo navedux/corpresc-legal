@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,8 +8,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16">
           {/* Brand */}
           <div className="md:col-span-1">
-            <Link href="/" className="font-heading text-xl font-bold text-navy tracking-wide flex items-center gap-1.5">
-              CORPRESC <span className="font-light">LEGAL</span>
+            <Link href="/">
+              <Image src="/Logo.webp" alt="CORPRESC LEGAL" width={140} height={35} className="h-8 w-auto object-contain" />
             </Link>
             <p className="text-slate-500 text-[13px] leading-relaxed mt-4 max-w-[240px]">
               Legal infrastructure for companies building the future.
@@ -44,15 +45,15 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3">
               {[
-                "Corporate Structuring",
-                "Regulatory Strategy",
-                "Commercial Advisory",
-                "Dispute & Litigation",
-                "Cross-Border Advisory",
+                { label: "Corporate Structuring", anchor: "corporate-structuring-governance" },
+                { label: "Regulatory Strategy", anchor: "regulatory-jurisdiction-advisory" },
+                { label: "Commercial Advisory", anchor: "commercial-strategic-legal-advisory" },
+                { label: "Dispute & Litigation", anchor: "disputes-arbitration-litigation" },
+                { label: "Cross-Border Advisory", anchor: "cross-border-advisory" },
               ].map((service) => (
-                <li key={service}>
-                  <Link href="/services" className="text-slate-600 text-[13px] hover:text-navy transition-colors">
-                    {service}
+                <li key={service.label}>
+                  <Link href={`/services#${service.anchor}`} className="text-slate-600 text-[13px] hover:text-navy transition-colors">
+                    {service.label}
                   </Link>
                 </li>
               ))}

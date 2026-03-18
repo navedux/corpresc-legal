@@ -76,7 +76,8 @@ export default function ServicesPage() {
         {services.map((service, index) => (
           <ScrollReveal key={service.title} delay={index * 60}>
             <div
-              className="group grid grid-cols-1 lg:grid-cols-12 gap-12 py-16 border-t border-line hover:bg-navy/[0.02] hover:px-4 transition-all duration-300"
+              id={service.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/-$/, "")}
+              className="group grid grid-cols-1 lg:grid-cols-12 gap-12 py-16 border-t border-line hover:bg-navy/[0.02] hover:px-4 transition-all duration-300 scroll-mt-24"
             >
               <div className="lg:col-span-5">
                 <span className="number-accent font-heading text-sm text-navy/25 font-bold">

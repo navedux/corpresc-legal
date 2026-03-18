@@ -18,13 +18,10 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 w-full px-4 sm:px-6 lg:px-10 py-5 lg:py-7 flex justify-between items-center bg-bg/95 backdrop-blur-sm z-50">
+    <header className="sticky top-0 w-full px-4 sm:px-6 lg:px-10 py-5 lg:py-7 flex justify-between items-center bg-white z-50">
       {/* Logo */}
-      <Link href="/" className="flex items-center gap-2.5 shrink-0">
-        <Image src="/Logo.webp" alt="CORPRESC LEGAL" width={36} height={36} className="w-7 h-7 sm:w-8 sm:h-8 lg:w-9 lg:h-9" />
-        <span className="font-heading text-xl sm:text-2xl lg:text-[1.7rem] font-bold text-navy tracking-wide flex items-center gap-1.5">
-          CORPRESC <span className="font-light">LEGAL</span>
-        </span>
+      <Link href="/" className="shrink-0">
+        <Image src="/Logo.webp" alt="CORPRESC LEGAL" width={160} height={40} className="h-8 sm:h-9 lg:h-10 w-auto object-contain" />
       </Link>
 
       {/* Desktop Nav */}

@@ -6,7 +6,7 @@
   --color-navy-dark: #021f30;
   --color-gold: #8B7355;
   --color-gold-light: #a08a6e;
-  --color-bg: #FCFBF9;
+  --color-bg: #FFFFFF;
   --color-line: #CBD5E1;
   --color-line-light: #E2E8F0;
   --font-heading: "Playfair Display", Georgia, "Times New Roman", serif;
@@ -19,7 +19,7 @@ html {
 
 body {
   font-family: var(--font-body);
-  background-color: #FCFBF9;
+  background-color: #FFFFFF;
   color: #334155;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

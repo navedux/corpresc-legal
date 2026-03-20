@@ -63,7 +63,7 @@ export default function Home() {
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
               <circle cx="12" cy="12" r="9" />
             </svg>
-            <span>Law, Strategy and Risk Intelligence</span>
+            <span className="text-shimmer">Law, Strategy and Risk Intelligence</span>
           </div>
         </div>
       </section>

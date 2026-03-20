@@ -117,13 +117,13 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-line mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-slate-400 text-[12px]">
+          <p className="text-slate-600 text-[12px]">
             &copy; {new Date().getFullYear()} CORPRESC LEGAL. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <Link href="#" className="text-slate-400 text-[12px] hover:text-navy transition-colors">Privacy Policy</Link>
-            <Link href="#" className="text-slate-400 text-[12px] hover:text-navy transition-colors">Cookie Policy</Link>
-            <Link href="#" className="text-slate-400 text-[12px] hover:text-navy transition-colors">Terms of Use</Link>
+            <Link href="#" className="text-slate-500 text-[12px] hover:text-navy transition-colors">Privacy Policy</Link>
+            <Link href="#" className="text-slate-500 text-[12px] hover:text-navy transition-colors">Cookie Policy</Link>
+            <Link href="#" className="text-slate-500 text-[12px] hover:text-navy transition-colors">Terms of Use</Link>
           </div>
         </div>
       </div>

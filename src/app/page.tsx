@@ -36,8 +36,8 @@ export default function Home() {
       <section className="relative w-full h-[55vh] min-h-[420px] md:min-h-[480px] overflow-hidden flex-shrink-0">
         {/* Background Image */}
         <img
-          src="https://images.unsplash.com/photo-1436450412740-6b988f486c6b?q=80&w=2070&auto=format&fit=crop"
-          alt="Legal library"
+          src="/CL_Hero.webp"
+          alt="CORPRESC LEGAL Hero"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-black/40" />

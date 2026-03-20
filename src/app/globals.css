@@ -122,6 +122,64 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+/* Shiny button hover effect */
+.btn-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-shine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0) 70%,
+    transparent 100%
+  );
+  transition: left 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.btn-shine:hover::before {
+  left: 120%;
+}
+
+/* Outline button shine */
+.btn-shine-outline {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-shine-outline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(3, 43, 67, 0) 30%,
+    rgba(3, 43, 67, 0.06) 50%,
+    rgba(3, 43, 67, 0) 70%,
+    transparent 100%
+  );
+  transition: left 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.btn-shine-outline:hover::before {
+  left: 120%;
+}
+
 /* Number counter fade */
 .number-accent {
   transition: color 0.3s ease;

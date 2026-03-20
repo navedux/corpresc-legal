@@ -121,7 +121,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2 sm:gap-3">
           <Link
             href="/contact"
-            className="group hidden sm:flex bg-navy text-white px-6 py-2.5 text-[13px] font-medium items-center gap-2 hover:bg-navy-dark hover:scale-[1.02] transition-all duration-300"
+            className="btn-shine group hidden sm:flex bg-navy text-white px-6 py-2.5 text-[13px] font-medium items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
           >
             Contact Us
             <svg className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

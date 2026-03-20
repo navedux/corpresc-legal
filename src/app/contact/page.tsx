@@ -164,7 +164,7 @@ export default function ContactPage() {
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6">
                 <button
                   type="submit"
-                  className="bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark hover:scale-[1.02] transition-all duration-300"
+                  className="btn-shine bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
                 >
                   Submit Inquiry
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

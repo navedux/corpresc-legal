@@ -92,7 +92,7 @@ export default function Footer() {
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 bg-navy text-white px-6 py-2.5 text-[13px] font-medium hover:bg-navy-dark transition-colors"
+              className="btn-shine inline-flex items-center gap-2 bg-navy text-white px-6 py-2.5 text-[13px] font-medium hover:bg-navy-dark transition-colors"
             >
               Book a Consultation
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

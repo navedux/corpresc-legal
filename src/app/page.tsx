@@ -48,7 +48,7 @@ export default function Home() {
         <div className="animate-hero-delay-3 mt-10 lg:ml-[15%] flex flex-col sm:flex-row gap-4">
           <Link
             href="/contact"
-            className="bg-navy text-white px-8 py-3 text-[13px] font-medium flex items-center gap-2 hover:bg-navy-dark hover:scale-[1.02] transition-all duration-300 w-fit"
+            className="btn-shine bg-navy text-white px-8 py-3 text-[13px] font-medium flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300 w-fit"
           >
             Book a Legal Strategy Session
             <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -57,7 +57,7 @@ export default function Home() {
           </Link>
           <Link
             href="/services"
-            className="border border-slate-300 text-slate-700 px-8 py-3 text-[13px] font-medium hover:border-navy hover:text-navy hover:scale-[1.02] transition-all duration-300 w-fit"
+            className="btn-shine-outline border border-slate-300 text-slate-700 px-8 py-3 text-[13px] font-medium hover:border-navy hover:text-navy transition-colors duration-300 w-fit"
           >
             Explore Services
           </Link>
@@ -186,7 +186,7 @@ export default function Home() {
             </p>
             <Link
               href="/contact"
-              className="group bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark hover:scale-[1.02] transition-all duration-300"
+              className="btn-shine group bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
             >
               Book a Legal Strategy Session
               <svg className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

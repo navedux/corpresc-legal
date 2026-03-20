@@ -83,7 +83,7 @@ export default function Home() {
             <p className="animate-hero-delay-2 text-[1.05rem] text-slate-600 leading-[1.65] mb-10 max-w-[420px] font-medium">
               CORPRESC LEGAL provides <span className="font-semibold text-slate-700">Strategic Legal Counsel</span> to modern businesses across corporate structuring, regulatory strategy, commercial advisory, dispute management, and cross-border operations.
             </p>
-            <div className="animate-hero-delay-3 flex flex-col sm:flex-row gap-4">
+            <div className="animate-hero-delay-3 flex flex-col gap-4">
               <Link
                 href="/contact"
                 className="btn-shine bg-navy text-white px-8 py-3 text-[13px] font-medium flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300 w-fit"

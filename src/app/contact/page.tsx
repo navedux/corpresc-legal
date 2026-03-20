@@ -37,11 +37,11 @@ export default function ContactPage() {
       <section className="px-6 lg:px-[8%] pt-16 pb-24 relative z-10 text-center">
         <div className="w-12 h-px bg-navy mb-8 mx-auto animate-hero" />
         <h1 className="font-heading text-[2rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4.25rem] leading-[1.15] text-navy max-w-[800px] tracking-tight mx-auto animate-hero-delay-1">
-          Book a <span className="italic font-normal">legal strategy</span> session
+          Book a <span className="italic font-normal">Legal Strategy</span> Session
         </h1>
         <p className="mt-12 text-[1.05rem] text-slate-600 max-w-[560px] leading-relaxed mx-auto animate-hero-delay-2">
           Tell us about your business and legal needs. Our team will review your inquiry and
-          schedule a strategy session to discuss how CORPRESC LEGAL can support you.
+          schedule a strategy session to discuss how<br className="hidden sm:block" /> CORPRESC LEGAL can support you.
         </p>
       </section>
 

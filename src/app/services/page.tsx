@@ -63,7 +63,7 @@ export default function ServicesPage() {
       <section className="px-6 lg:px-[8%] pt-16 pb-24 relative z-10">
         <div className="w-12 h-px bg-navy mb-8 animate-hero" />
         <h1 className="font-heading text-[2rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4.25rem] leading-[1.15] text-navy max-w-[850px] tracking-tight animate-hero-delay-1">
-          <span className="italic font-normal">Comprehensive</span> legal advisory for modern businesses
+          <span className="italic font-normal">Comprehensive</span> Legal Advisory for Modern Businesses
         </h1>
         <p className="mt-12 lg:ml-[15%] text-[1.05rem] text-slate-600 max-w-[560px] leading-relaxed animate-hero-delay-2">
           Nine integrated service pillars designed to support every dimension of your business —
@@ -108,7 +108,7 @@ export default function ServicesPage() {
         <ScrollReveal>
           <div className="max-w-[700px]">
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight mb-6">
-              Need <span className="italic font-normal">strategic legal</span> counsel?
+              Need <span className="italic font-normal">Strategic Legal</span> Counsel?
             </h2>
             <p className="text-slate-600 leading-relaxed mb-10 max-w-[520px]">
               Discuss your requirements with CORPRESC LEGAL and discover how our integrated advisory

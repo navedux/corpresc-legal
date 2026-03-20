@@ -34,17 +34,15 @@ export default function Home() {
     <div className="relative w-full max-w-[1440px] mx-auto">
       {/* Hero */}
       <section className="px-6 lg:px-[8%] pt-16 pb-8 relative z-10">
-        <p className="animate-hero text-[13px] font-medium tracking-[0.2em] uppercase text-gold mb-8">
+        <span className="animate-hero inline-block text-[11px] font-semibold tracking-[0.2em] uppercase text-gold border border-gold/30 bg-gold/[0.06] px-4 py-1.5 mb-8">
           Law, Strategy and Risk Intelligence
-        </p>
+        </span>
         <h1 className="animate-hero-delay-1 font-heading text-[2rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[3.75rem] leading-[1.15] text-navy tracking-tight">
-          <span className="italic font-normal">Strategic legal</span> infrastructure<br className="hidden md:block" /> for companies building the future
+          <span className="italic font-normal">Strategic Legal</span> Infrastructure for Companies Building the <span className="uppercase tracking-wider">Future</span>
         </h1>
 
         <p className="animate-hero-delay-2 mt-12 lg:ml-[15%] text-[1.05rem] text-slate-600 max-w-[580px] leading-relaxed">
-          CORPRESC LEGAL provides strategic legal counsel to modern businesses
-          across corporate structuring, regulatory strategy, commercial advisory,
-          dispute management, and cross-border operations.
+          CORPRESC LEGAL provides <span className="font-semibold text-slate-700">Strategic Legal Counsel</span> to modern businesses across corporate structuring, regulatory strategy, commercial advisory, dispute management, and cross-border operations.
         </p>
 
         <div className="animate-hero-delay-3 mt-10 lg:ml-[15%] flex flex-col sm:flex-row gap-4">
@@ -78,50 +76,13 @@ export default function Home() {
         </div>
       </ScrollReveal>
 
-      {/* What We Do */}
-      <section className="px-6 lg:px-[8%] pt-32 pb-24 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
-          <ScrollReveal className="lg:col-span-4" direction="left">
-            <div className="w-12 h-px bg-navy mb-8" />
-            <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight">
-              An <span className="italic font-normal">integrated</span> approach<br />
-              to legal strategy
-            </h2>
-          </ScrollReveal>
-          <div className="lg:col-span-7 lg:col-start-6">
-            <ScrollReveal>
-              <p className="text-slate-600 text-[1.05rem] leading-relaxed mb-12">
-                CORPRESC LEGAL integrates corporate, regulatory, commercial, and dispute advisory into
-                a unified legal strategy — giving modern businesses a single strategic legal partner
-                across every dimension of legal risk and opportunity.
-              </p>
-            </ScrollReveal>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
-              {[
-                { title: "Corporate Structuring", desc: "Entity design, governance, and structural strategy for growth." },
-                { title: "Regulatory Strategy", desc: "Jurisdiction analysis, licensing, and regulatory positioning." },
-                { title: "Commercial Advisory", desc: "Strategic counsel for deals, partnerships, and market entry." },
-                { title: "Dispute & Litigation", desc: "Proactive dispute management and resolution strategy." },
-              ].map((item, i) => (
-                <ScrollReveal key={item.title} delay={i * 100}>
-                  <div className="border-t border-line pt-6 hover:border-navy/40 transition-colors duration-300">
-                    <h3 className="font-heading text-lg font-semibold text-navy mb-2">{item.title}</h3>
-                    <p className="text-slate-500 text-sm leading-relaxed">{item.desc}</p>
-                  </div>
-                </ScrollReveal>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Legal Infrastructure Model */}
       <section className="px-6 lg:px-[8%] py-24 border-t border-line relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           <ScrollReveal className="lg:col-span-5" direction="left">
             <div className="w-12 h-px bg-navy mb-8" />
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight mb-6">
-              The <span className="italic font-normal">legal infrastructure</span> model
+              The <span className="italic font-normal">Legal Infrastructure</span> Model
             </h2>
             <p className="text-slate-600 leading-relaxed mb-8">
               We help businesses design long-term legal architecture rather than reacting to
@@ -132,7 +93,7 @@ export default function Home() {
               href="/how-we-work"
               className="group inline-flex items-center gap-2 text-navy text-[13px] font-medium border-b border-navy pb-0.5 hover:opacity-70 transition-opacity"
             >
-              Learn how we work
+              Learn How We Work
               <svg className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
@@ -162,7 +123,7 @@ export default function Home() {
           <div className="mb-16">
             <div className="w-12 h-px bg-navy mb-8" />
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight max-w-[600px]">
-              <span className="italic font-normal">Comprehensive</span> legal advisory
+              <span className="italic font-normal">Comprehensive</span> Legal Advisory
             </h2>
             <p className="text-slate-600 text-[1.05rem] mt-6 max-w-[580px]">
               Eight integrated service pillars designed to support every stage of your business lifecycle.
@@ -189,50 +150,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Strategic Differentiators */}
-      <section className="px-6 lg:px-[8%] py-24 border-t border-line relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
-          <ScrollReveal className="lg:col-span-4" direction="left">
-            <div className="w-12 h-px bg-navy mb-8" />
-            <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight">
-              What <span className="italic font-normal">sets us</span> apart
-            </h2>
-          </ScrollReveal>
-          <div className="lg:col-span-7 lg:col-start-6">
-            <div className="space-y-0">
-              {[
-                {
-                  title: "Founder & Director Risk Workshops",
-                  desc: "Structured workshops for leadership teams to anticipate governance, regulatory, and dispute risks before they arise.",
-                },
-                {
-                  title: "Dedicated Associate Model",
-                  desc: "Every client is assigned a dedicated legal associate responsible for coordination, execution, and continuity.",
-                },
-                {
-                  title: "International Dispute Readiness",
-                  desc: "Proactive frameworks ensuring your business is prepared for cross-border disputes and enforcement.",
-                },
-              ].map((item, i) => (
-                <ScrollReveal key={item.title} delay={i * 100}>
-                  <div className="group py-8 border-t border-line last:border-b hover:bg-navy/[0.02] hover:px-4 transition-all duration-300 cursor-default">
-                    <h3 className="font-heading text-xl font-semibold text-navy mb-3">{item.title}</h3>
-                    <p className="text-slate-500 text-sm leading-relaxed max-w-[520px]">{item.desc}</p>
-                  </div>
-                </ScrollReveal>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Industries */}
       <section className="px-6 lg:px-[8%] py-24 border-t border-line relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
           <ScrollReveal className="lg:col-span-4" direction="left">
             <div className="w-12 h-px bg-navy mb-8" />
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight">
-              Built for <span className="italic font-normal">forward-thinking</span> companies
+              Built for <span className="italic font-normal">Forward-Thinking</span> Companies
             </h2>
           </ScrollReveal>
           <div className="lg:col-span-7 lg:col-start-6">
@@ -254,7 +178,7 @@ export default function Home() {
         <ScrollReveal>
           <div className="max-w-[700px]">
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight mb-6">
-              Build the <span className="italic font-normal">right legal architecture</span> for your business
+              Build the <span className="italic font-normal">Right Legal Architecture</span> for Your Business
             </h2>
             <p className="text-slate-600 leading-relaxed mb-10 max-w-[520px]">
               Schedule a strategy session with CORPRESC LEGAL to discuss your company&apos;s legal

@@ -42,12 +42,49 @@ export default function HowWeWorkPage() {
       <section className="px-6 lg:px-[8%] pt-16 pb-24 relative z-10">
         <div className="w-12 h-px bg-navy mb-8 animate-hero" />
         <h1 className="font-heading text-[2rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4.25rem] leading-[1.15] text-navy max-w-[850px] tracking-tight animate-hero-delay-1">
-          A <span className="italic font-normal">structured approach</span> to strategic legal advisory
+          A <span className="italic font-normal">Structured Approach</span> to Strategic Legal Advisory
         </h1>
         <p className="mt-12 lg:ml-[15%] text-[1.05rem] text-slate-600 max-w-[560px] leading-relaxed animate-hero-delay-2">
           Our engagement model is designed for clarity, continuity, and strategic depth — ensuring
           every client receives consistent, high-quality legal counsel.
         </p>
+      </section>
+
+      {/* Integrated Approach */}
+      <section className="px-6 lg:px-[8%] py-24 border-t border-line relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+          <ScrollReveal className="lg:col-span-4" direction="left">
+            <div className="w-12 h-px bg-navy mb-8" />
+            <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight">
+              An <span className="italic font-normal">Integrated</span> Approach<br />
+              to Legal Strategy
+            </h2>
+          </ScrollReveal>
+          <div className="lg:col-span-7 lg:col-start-6">
+            <ScrollReveal>
+              <p className="text-slate-600 text-[1.05rem] leading-relaxed mb-12">
+                CORPRESC LEGAL integrates corporate, regulatory, commercial, and dispute advisory into
+                a unified legal strategy — giving modern businesses a single strategic legal partner
+                across every dimension of legal risk and opportunity.
+              </p>
+            </ScrollReveal>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
+              {[
+                { title: "Corporate Structuring", desc: "Entity design, governance, and structural strategy for growth." },
+                { title: "Regulatory Strategy", desc: "Jurisdiction analysis, licensing, and regulatory positioning." },
+                { title: "Commercial Advisory", desc: "Strategic counsel for deals, partnerships, and market entry." },
+                { title: "Dispute & Litigation", desc: "Proactive dispute management and resolution strategy." },
+              ].map((item, i) => (
+                <ScrollReveal key={item.title} delay={i * 100}>
+                  <div className="border-t border-line pt-6 hover:border-navy/40 transition-colors duration-300">
+                    <h3 className="font-heading text-lg font-semibold text-navy mb-2">{item.title}</h3>
+                    <p className="text-slate-500 text-sm leading-relaxed">{item.desc}</p>
+                  </div>
+                </ScrollReveal>
+              ))}
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Dedicated Associate Model */}
@@ -56,7 +93,7 @@ export default function HowWeWorkPage() {
           <ScrollReveal direction="left" className="lg:col-span-5">
             <div className="w-12 h-px bg-navy mb-8" />
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight mb-6">
-              The <span className="italic font-normal">dedicated associate</span> model
+              The <span className="italic font-normal">Dedicated Associate</span> Model
             </h2>
             <p className="text-slate-600 leading-relaxed mb-6">
               Every client is assigned a dedicated legal associate who serves as your primary point
@@ -98,7 +135,7 @@ export default function HowWeWorkPage() {
         <div className="mb-16">
           <div className="w-12 h-px bg-navy mb-8" />
           <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight max-w-[600px]">
-            Four steps to <span className="italic font-normal">strategic legal</span> infrastructure
+            Four Steps to <span className="italic font-normal">Strategic Legal</span> Infrastructure
           </h2>
           <p className="text-slate-600 text-[1.05rem] mt-6 max-w-[580px]">
             Our structured advisory framework ensures comprehensive coverage from initial
@@ -166,7 +203,7 @@ export default function HowWeWorkPage() {
         <ScrollReveal>
           <div className="max-w-[700px]">
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight mb-6">
-              Ready to <span className="italic font-normal">get started</span>?
+              Ready to <span className="italic font-normal">Get Started</span>?
             </h2>
             <p className="text-slate-600 leading-relaxed mb-10 max-w-[520px]">
               Schedule a strategy session to understand how CORPRESC LEGAL&apos;s advisory model can

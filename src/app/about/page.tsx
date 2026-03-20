@@ -15,7 +15,7 @@ export default function AboutPage() {
       <section className="px-6 lg:px-[8%] pt-16 pb-24 relative z-10">
         <div className="w-12 h-px bg-navy mb-8 animate-hero" />
         <h1 className="font-heading text-[2rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4.25rem] leading-[1.15] text-navy max-w-[800px] tracking-tight animate-hero-delay-1">
-          Redefining <span className="italic font-normal">legal advisory</span> through strategic thinking
+          Redefining <span className="italic font-normal">Legal Advisory</span> Through Strategic Thinking
         </h1>
         <p className="mt-12 lg:ml-[15%] text-[1.05rem] text-slate-600 max-w-[560px] leading-relaxed animate-hero-delay-2">
           CORPRESC LEGAL operates at the intersection of law, strategy, and global business —
@@ -31,7 +31,7 @@ export default function AboutPage() {
             <ScrollReveal direction="left">
               <div className="w-12 h-px bg-navy mb-8" />
               <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight">
-                An <span className="italic font-normal">integrated</span> advisory practice
+                An <span className="italic font-normal">Integrated</span> Advisory Practice
               </h2>
             </ScrollReveal>
           </div>
@@ -93,7 +93,7 @@ export default function AboutPage() {
           <ScrollReveal direction="left">
             <div className="w-12 h-px bg-navy mb-8" />
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight max-w-[600px]">
-              <span className="italic font-normal">Strategic</span> legal architecture
+              <span className="italic font-normal">Strategic</span> Legal Architecture
             </h2>
           </ScrollReveal>
           <ScrollReveal delay={100}>
@@ -122,12 +122,65 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Leadership Team */}
+      <section className="px-6 lg:px-[8%] py-24 border-t border-line relative z-10">
+        <div className="mb-16">
+          <ScrollReveal direction="left">
+            <div className="w-12 h-px bg-navy mb-8" />
+            <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight max-w-[600px]">
+              The <span className="italic font-normal">People</span> Behind the Practice
+            </h2>
+          </ScrollReveal>
+          <ScrollReveal delay={100}>
+            <p className="text-slate-600 text-[1.05rem] mt-6 max-w-[580px] leading-relaxed">
+              Our team brings together deep legal expertise, strategic thinking, and global
+              perspective — united by a shared commitment to building lasting legal infrastructure.
+            </p>
+          </ScrollReveal>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-12">
+          {[
+            {
+              name: "Founding Partner",
+              role: "Strategic Advisory & Corporate Structuring",
+              desc: "Leads the firm's strategic direction and oversees corporate structuring, governance, and cross-border advisory engagements.",
+              initials: "FP",
+            },
+            {
+              name: "Senior Associate",
+              role: "Regulatory & Compliance Strategy",
+              desc: "Specialises in regulatory landscape analysis, jurisdiction strategy, and compliance framework design across multiple sectors.",
+              initials: "SA",
+            },
+            {
+              name: "Associate",
+              role: "Commercial & Dispute Advisory",
+              desc: "Focuses on commercial legal advisory, contract architecture, and dispute readiness for growth-stage companies.",
+              initials: "CA",
+            },
+          ].map((member, i) => (
+            <ScrollReveal key={member.name} delay={i * 120}>
+              <div className="group">
+                <div className="w-full aspect-[4/5] bg-gradient-to-br from-navy/[0.06] to-navy/[0.02] flex items-center justify-center mb-6 overflow-hidden">
+                  <span className="font-heading text-5xl text-navy/15 font-bold group-hover:text-navy/25 transition-colors duration-500">
+                    {member.initials}
+                  </span>
+                </div>
+                <h3 className="font-heading text-lg font-semibold text-navy">{member.name}</h3>
+                <p className="text-gold text-[12px] font-medium tracking-wide mt-1 mb-3">{member.role}</p>
+                <p className="text-slate-500 text-[13px] leading-relaxed">{member.desc}</p>
+              </div>
+            </ScrollReveal>
+          ))}
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="px-6 lg:px-[8%] py-24 border-t border-line hover:border-navy/40 transition-colors duration-300 relative z-10">
         <div className="max-w-[700px]">
           <ScrollReveal>
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight mb-6">
-              Ready to build your <span className="italic font-normal">legal infrastructure</span>?
+              Ready to Build Your <span className="italic font-normal">Legal Infrastructure</span>?
             </h2>
           </ScrollReveal>
           <ScrollReveal delay={100}>

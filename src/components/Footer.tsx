@@ -11,7 +11,7 @@ export default function Footer() {
             <Link href="/">
               <Image src="/Logo.webp" alt="CORPRESC LEGAL" width={140} height={35} className="h-8 w-auto object-contain" />
             </Link>
-            <p className="text-slate-500 text-[13px] leading-relaxed mt-4 max-w-[240px]">
+            <p className="text-slate-600 text-[13px] font-semibold leading-relaxed mt-4 max-w-[240px]">
               Legal infrastructure for companies building the future.
             </p>
           </div>

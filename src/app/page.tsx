@@ -86,7 +86,7 @@ export default function Home() {
             <div className="animate-hero-delay-3 flex flex-col gap-4">
               <Link
                 href="/contact"
-                className="btn-shine bg-navy text-white px-8 py-3 text-[13px] font-medium flex items-center justify-center gap-2 hover:bg-navy-dark transition-colors duration-300 w-full max-w-[280px]"
+                className="btn-shine bg-navy text-white px-8 h-[46px] text-[13px] font-medium flex items-center justify-center gap-2 hover:bg-navy-dark transition-colors duration-300 w-full max-w-[280px]"
               >
                 Book a Legal Strategy Session
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -95,7 +95,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/services"
-                className="btn-shine-outline border border-slate-300 text-slate-700 px-8 py-3 text-[13px] font-medium hover:border-navy hover:text-navy transition-colors duration-300 w-full max-w-[280px] text-center"
+                className="btn-shine-outline border border-slate-300 text-slate-700 px-8 h-[46px] text-[13px] font-medium flex items-center justify-center hover:border-navy hover:text-navy transition-colors duration-300 w-full max-w-[280px]"
               >
                 Explore Services
               </Link>

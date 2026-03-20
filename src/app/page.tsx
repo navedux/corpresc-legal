@@ -32,41 +32,58 @@ const industries = [
 export default function Home() {
   return (
     <div className="relative w-full">
-      {/* Hero Banner */}
-      <section className="relative w-full h-[50vh] md:h-[60vh] lg:h-[70vh] overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1436450412740-6b988f486c6b?q=80&w=2070&auto=format&fit=crop"
-          alt="Legal library with law books and judicial references"
-          className="w-full h-full object-cover object-center animate-hero"
-        />
-        <div className="absolute inset-0 bg-navy/60 pointer-events-none" />
-        <div className="absolute bottom-8 left-6 lg:left-[8%] animate-hero-delay-1">
-          <span className="inline-block text-[11px] font-semibold tracking-[0.2em] uppercase text-gold/80">
-            Protect what&apos;s yours.
-          </span>
+      {/* Hero Dark Banner */}
+      <section className="relative w-full h-[55vh] min-h-[420px] md:min-h-[480px] overflow-hidden flex-shrink-0" style={{ background: "radial-gradient(circle at 50% 50%, #0a3a56 0%, #021f30 100%)" }}>
+        {/* Decorative SVG Lines */}
+        <svg className="absolute inset-0 w-full h-full pointer-events-none opacity-[0.25]" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+          <g stroke="#8B7355" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M 20% -10% v 40% a 100 100 0 0 0 100 100 h 20% a 100 100 0 0 1 100 100 v 40%" />
+            <path d="M 50% -10% v 60% a 50 50 0 0 0 50 50 h 40%" />
+            <path d="M 80% 100% v -30% a 60 60 0 0 1 60 -60 h 20%" />
+            <path d="M 100% 20% h -15% a 80 80 0 0 0 -80 80 v 10%" />
+            <path d="M 70% 50% c -20% -10%, -10% 20%, -30% 10%" />
+            <circle cx="35%" cy="65%" r="4" fill="#8B7355" />
+            <circle cx="85%" cy="30%" r="3" fill="#8B7355" />
+          </g>
+        </svg>
+
+        {/* Badge at bottom */}
+        <div
+          className="absolute bottom-0 left-0 h-[52px] bg-white z-20 flex items-center pl-6 lg:pl-12 pr-16 animate-hero"
+          style={{ clipPath: "polygon(0 0, calc(100% - 28px) 0, 100% 100%, 0 100%)" }}
+        >
+          <div className="flex items-center gap-3 text-gold text-[12px] font-medium tracking-[0.12em] uppercase">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              <circle cx="12" cy="12" r="9" />
+            </svg>
+            <span>Law, Strategy and Risk Intelligence</span>
+          </div>
         </div>
       </section>
 
-      {/* Hero Content */}
-      <section className="max-w-[1440px] mx-auto px-6 lg:px-[8%] py-16 md:py-24 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
-          <div className="lg:col-span-7">
-            <h1 className="animate-hero-delay-1 font-heading text-[2rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] leading-[1.1] text-navy tracking-tight">
-              <span className="italic font-normal">Trusted Legal</span> Advisory for Companies Building the Future.
+      {/* Hero Content — Two Column */}
+      <section className="w-full bg-white">
+        <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row">
+          {/* Left — Heading */}
+          <div className="lg:w-[60%] px-6 lg:pl-[8%] lg:pr-20 pt-16 md:pt-24 pb-12 lg:pb-24">
+            <h1 className="animate-hero-delay-1 font-heading text-[2rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[0.95] text-navy tracking-[-0.02em]">
+              <span className="italic font-normal">Trusted Legal</span>{" "}
+              Advisory for Companies Building the Future.
             </h1>
           </div>
-          <div className="lg:col-span-4 lg:col-start-9 lg:border-l lg:border-line lg:pl-12 flex flex-col justify-center">
-            <p className="animate-hero-delay-2 text-[1.05rem] text-slate-600 leading-relaxed mb-8">
-              We&apos;re strategic legal advisors helping modern businesses navigate corporate structuring, regulatory strategy, and cross-border operations.
+          {/* Right — Description + CTA */}
+          <div className="lg:w-[40%] lg:border-l lg:border-line px-6 lg:pl-16 lg:pr-[8%] pt-8 lg:pt-24 pb-16 lg:pb-24 flex flex-col justify-center">
+            <p className="animate-hero-delay-2 text-[1.05rem] text-slate-600 leading-[1.65] mb-10 max-w-[420px] font-medium">
+              We&apos;re strategic legal advisors simplifying legal complexity so you can focus on building what matters most.
             </p>
             <div className="animate-hero-delay-3">
               <Link
                 href="/contact"
-                className="btn-shine-outline group inline-flex items-center gap-3 border border-navy text-navy px-8 py-3 text-[13px] font-medium hover:bg-navy hover:text-white transition-all duration-300"
+                className="btn-shine group inline-flex items-center gap-3 bg-gold hover:bg-gold-light text-white px-7 py-3.5 text-[14px] font-semibold transition-colors duration-300"
               >
                 Contact Us
-                <svg className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                <svg className="w-[18px] h-[18px] transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
               </Link>
             </div>

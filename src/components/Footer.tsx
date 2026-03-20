@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/">
-              <Image src="/Logo.webp" alt="CORPRESC LEGAL" width={140} height={35} className="h-8 w-auto object-contain" />
+              <Image src="/new_logo_CL.webp" alt="CORPRESC LEGAL" width={140} height={35} className="h-8 w-auto object-contain" />
             </Link>
             <p className="text-slate-700 text-[13px] font-semibold leading-relaxed mt-4 max-w-[240px]">
               Trusted legal advisory for companies building the future.

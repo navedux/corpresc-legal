@@ -55,7 +55,7 @@ export default function Navbar() {
     <header className="sticky top-0 w-full px-4 sm:px-6 lg:px-10 py-5 lg:py-7 flex justify-between items-center bg-white z-50">
       {/* Logo */}
       <Link href="/" className="shrink-0">
-        <Image src="/Logo.webp" alt="CORPRESC LEGAL" width={160} height={40} className="h-8 sm:h-9 lg:h-10 w-auto object-contain" />
+        <Image src="/new_logo_CL.webp" alt="CORPRESC LEGAL" width={160} height={40} className="h-8 sm:h-9 lg:h-10 w-auto object-contain" />
       </Link>
 
       {/* Desktop Nav */}

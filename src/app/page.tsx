@@ -81,17 +81,23 @@ export default function Home() {
           {/* Right — Description + CTA */}
           <div className="lg:w-[40%] lg:border-l lg:border-line px-6 lg:pl-16 lg:pr-[8%] pt-8 lg:pt-24 pb-16 lg:pb-24 flex flex-col justify-center">
             <p className="animate-hero-delay-2 text-[1.05rem] text-slate-600 leading-[1.65] mb-10 max-w-[420px] font-medium">
-              We&apos;re strategic legal advisors simplifying legal complexity so you can focus on building what matters most.
+              CORPRESC LEGAL provides <span className="font-semibold text-slate-700">Strategic Legal Counsel</span> to modern businesses across corporate structuring, regulatory strategy, commercial advisory, dispute management, and cross-border operations.
             </p>
-            <div className="animate-hero-delay-3">
+            <div className="animate-hero-delay-3 flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
-                className="btn-shine group inline-flex items-center gap-3 bg-gold hover:bg-gold-light text-white px-7 py-3.5 text-[14px] font-semibold transition-colors duration-300"
+                className="btn-shine bg-navy text-white px-8 py-3 text-[13px] font-medium flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300 w-fit"
               >
-                Contact Us
-                <svg className="w-[18px] h-[18px] transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M5 12h14M12 5l7 7-7 7" />
+                Book a Legal Strategy Session
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
+              </Link>
+              <Link
+                href="/services"
+                className="btn-shine-outline border border-slate-300 text-slate-700 px-8 py-3 text-[13px] font-medium hover:border-navy hover:text-navy transition-colors duration-300 w-fit"
+              >
+                Explore Services
               </Link>
             </div>
           </div>

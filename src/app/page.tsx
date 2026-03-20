@@ -33,7 +33,14 @@ export default function Home() {
   return (
     <div className="relative w-full">
       {/* Hero Dark Banner */}
-      <section className="relative w-full h-[55vh] min-h-[420px] md:min-h-[480px] overflow-hidden flex-shrink-0" style={{ background: "radial-gradient(circle at 50% 50%, #0a3a56 0%, #021f30 100%)" }}>
+      <section className="relative w-full h-[55vh] min-h-[420px] md:min-h-[480px] overflow-hidden flex-shrink-0">
+        {/* Background Image */}
+        <img
+          src="https://images.unsplash.com/photo-1436450412740-6b988f486c6b?q=80&w=2070&auto=format&fit=crop"
+          alt="Legal library"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+        />
+        <div className="absolute inset-0" style={{ background: "radial-gradient(circle at 50% 50%, rgba(10,58,86,0.82) 0%, rgba(2,31,48,0.92) 100%)" }} />
         {/* Decorative SVG Lines */}
         <svg className="absolute inset-0 w-full h-full pointer-events-none opacity-[0.25]" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
           <g stroke="#8B7355" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">

@@ -105,16 +105,19 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(
     90deg,
     #8B7355 0%,
-    #8B7355 35%,
-    #c9a96e 50%,
-    #8B7355 65%,
+    #8B7355 30%,
+    #e8d5b0 48%,
+    #fff8e8 50%,
+    #e8d5b0 52%,
+    #8B7355 70%,
     #8B7355 100%
   );
-  background-size: 200% auto;
+  background-size: 250% auto;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textShimmer 4s ease-in-out infinite;
+  color: transparent;
+  animation: textShimmer 3s linear infinite;
 }
 
 /* Interactive hover lift */

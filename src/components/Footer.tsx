@@ -18,9 +18,9 @@ export default function Footer() {
 
           {/* Navigation */}
           <div>
-            <h4 className="font-body text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
+            <p className="text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
               Navigation
-            </h4>
+            </p>
             <ul className="space-y-3">
               {[
                 { href: "/", label: "Home" },
@@ -40,9 +40,9 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="font-body text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
+            <p className="text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
               Services
-            </h4>
+            </p>
             <ul className="space-y-3">
               {[
                 { label: "Corporate Structuring", anchor: "corporate-structuring-governance" },
@@ -62,9 +62,9 @@ export default function Footer() {
 
           {/* Connect */}
           <div>
-            <h4 className="font-body text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
+            <p className="text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
               Connect
-            </h4>
+            </p>
             <ul className="space-y-3">
               {[
                 { label: "X (Twitter)", href: "#" },
@@ -84,9 +84,9 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-body text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
+            <p className="text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
               Get in Touch
-            </h4>
+            </p>
             <p className="text-slate-500 text-[13px] leading-relaxed mb-6">
               Ready to build the right legal framework for your business?
             </p>
@@ -104,7 +104,7 @@ export default function Footer() {
 
         {/* Offices */}
         <div className="border-t border-line mt-16 pt-8">
-          <h4 className="font-body text-[11px] font-bold tracking-[0.15em] uppercase text-navy/50 mb-4">Offices</h4>
+          <p className="text-[11px] font-bold tracking-[0.15em] uppercase text-navy/50 mb-4">Offices</p>
           <div className="flex flex-wrap items-center gap-x-8 gap-y-2">
             {["New Delhi", "Mumbai", "Bangalore", "London", "Dubai"].map((city, i) => (
               <span key={city} className="flex items-center gap-3 text-slate-600 text-[13px]">

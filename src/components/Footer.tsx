@@ -11,17 +11,17 @@ export default function Footer() {
             <Link href="/">
               <Image src="/new_logo_CL.webp" alt="CORPRESC LEGAL" width={140} height={35} className="h-8 w-auto object-contain" />
             </Link>
-            <p className="text-slate-700 text-[13px] font-semibold leading-relaxed mt-4 max-w-[240px]">
+            <p className="text-slate-700 text-[14px] font-semibold leading-relaxed mt-4 max-w-[240px]">
               Trusted legal advisory for companies building the future.
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <p className="text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
+            <p className="text-[13px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
               Navigation
             </p>
-            <ul className="space-y-3">
+            <ul className="space-y-3.5">
               {[
                 { href: "/", label: "Home" },
                 { href: "/about", label: "About Us" },
@@ -30,7 +30,7 @@ export default function Footer() {
                 { href: "/contact", label: "Contact" },
               ].map((item) => (
                 <li key={item.label}>
-                  <Link href={item.href} className="link-underline text-slate-600 text-[13px] hover:text-navy transition-colors">
+                  <Link href={item.href} className="link-underline text-slate-600 text-[14px] hover:text-navy transition-colors">
                     {item.label}
                   </Link>
                 </li>
@@ -40,10 +40,10 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <p className="text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
+            <p className="text-[13px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
               Services
             </p>
-            <ul className="space-y-3">
+            <ul className="space-y-3.5">
               {[
                 { label: "Corporate Structuring", anchor: "corporate-structuring-governance" },
                 { label: "Regulatory Strategy", anchor: "regulatory-jurisdiction-advisory" },
@@ -52,7 +52,7 @@ export default function Footer() {
                 { label: "Cross-Border Advisory", anchor: "cross-border-advisory" },
               ].map((service) => (
                 <li key={service.label}>
-                  <Link href={`/services#${service.anchor}`} className="link-underline text-slate-600 text-[13px] hover:text-navy transition-colors">
+                  <Link href={`/services#${service.anchor}`} className="link-underline text-slate-600 text-[14px] hover:text-navy transition-colors">
                     {service.label}
                   </Link>
                 </li>
@@ -62,10 +62,10 @@ export default function Footer() {
 
           {/* Connect */}
           <div>
-            <p className="text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
+            <p className="text-[13px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
               Connect
             </p>
-            <ul className="space-y-3">
+            <ul className="space-y-3.5">
               {[
                 { label: "X (Twitter)", href: "#" },
                 { label: "LinkedIn", href: "#" },
@@ -74,7 +74,7 @@ export default function Footer() {
                 { label: "Instagram", href: "#" },
               ].map((social) => (
                 <li key={social.label}>
-                  <a href={social.href} target="_blank" rel="noopener noreferrer" className="link-underline text-slate-600 text-[13px] hover:text-navy transition-colors">
+                  <a href={social.href} target="_blank" rel="noopener noreferrer" className="link-underline text-slate-600 text-[14px] hover:text-navy transition-colors">
                     {social.label}
                   </a>
                 </li>
@@ -84,15 +84,15 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <p className="text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
+            <p className="text-[13px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
               Get in Touch
             </p>
-            <p className="text-slate-500 text-[13px] leading-relaxed mb-6">
+            <p className="text-slate-500 text-[14px] leading-relaxed mb-6">
               Ready to build the right legal framework for your business?
             </p>
             <Link
               href="/contact"
-              className="btn-shine inline-flex items-center gap-2 bg-navy text-white px-6 py-2.5 text-[13px] font-medium hover:bg-navy-dark transition-colors"
+              className="btn-shine inline-flex items-center gap-2 bg-navy text-white px-6 py-2.5 text-[14px] font-medium hover:bg-navy-dark transition-colors"
             >
               Book a Consultation
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -104,10 +104,10 @@ export default function Footer() {
 
         {/* Offices */}
         <div className="border-t border-line mt-16 pt-8">
-          <p className="text-[11px] font-bold tracking-[0.15em] uppercase text-navy/50 mb-4">Offices</p>
+          <p className="text-[12px] font-bold tracking-[0.15em] uppercase text-navy/50 mb-4">Offices</p>
           <div className="flex flex-wrap items-center gap-x-8 gap-y-2">
             {["New Delhi", "Mumbai", "Bangalore", "London", "Dubai"].map((city, i) => (
-              <span key={city} className="flex items-center gap-3 text-slate-600 text-[13px]">
+              <span key={city} className="flex items-center gap-3 text-slate-600 text-[14px]">
                 {city}
                 {i < 4 && <span className="hidden sm:inline text-slate-300">|</span>}
               </span>
@@ -117,13 +117,13 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-line mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-slate-600 text-[12px]">
+          <p className="text-slate-600 text-[13px]">
             &copy; {new Date().getFullYear()} CORPRESC LEGAL. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <Link href="#" className="text-slate-500 text-[12px] hover:text-navy transition-colors">Privacy Policy</Link>
-            <Link href="#" className="text-slate-500 text-[12px] hover:text-navy transition-colors">Cookie Policy</Link>
-            <Link href="#" className="text-slate-500 text-[12px] hover:text-navy transition-colors">Terms of Use</Link>
+            <Link href="#" className="text-slate-500 text-[13px] hover:text-navy transition-colors">Privacy Policy</Link>
+            <Link href="#" className="text-slate-500 text-[13px] hover:text-navy transition-colors">Cookie Policy</Link>
+            <Link href="#" className="text-slate-500 text-[13px] hover:text-navy transition-colors">Terms of Use</Link>
           </div>
         </div>
       </div>

@@ -60,7 +60,7 @@ export default function Navbar() {
 
       {/* Desktop Nav */}
       <div className="flex items-center gap-10" ref={dropdownRef}>
-        <nav className="hidden lg:flex items-center gap-8 text-[13px] font-medium text-slate-900">
+        <nav className="hidden lg:flex items-center gap-8 text-[14px] font-medium text-slate-900">
           {navItems.map((item) => {
             if ("children" in item && item.children) {
               const isActive = item.children.some((c) => pathname.startsWith(c.href));
@@ -88,7 +88,7 @@ export default function Navbar() {
                         <Link
                           key={child.href}
                           href={child.href}
-                          className={`block px-5 py-2.5 text-[13px] transition-colors duration-200 ${
+                          className={`block px-5 py-2.5 text-[14px] transition-colors duration-200 ${
                             pathname === child.href
                               ? "text-navy bg-navy/[0.04]"
                               : "text-slate-600 hover:text-navy hover:bg-navy/[0.03]"
@@ -157,7 +157,7 @@ export default function Navbar() {
               return (
                 <div key={item.label}>
                   <button
-                    className="flex items-center justify-between w-full py-3 text-sm font-medium text-slate-800 border-b border-line/50"
+                    className="flex items-center justify-between w-full py-3 text-[15px] font-medium text-slate-800 border-b border-line/50"
                     onClick={() => setMobileExpanded(isExpanded ? null : item.label)}
                   >
                     {item.label}
@@ -198,7 +198,7 @@ export default function Navbar() {
               <Link
                 key={item.label}
                 href={item.href!}
-                className={`block py-3 text-sm font-medium border-b border-line/50 ${
+                className={`block py-3 text-[15px] font-medium border-b border-line/50 ${
                   pathname === item.href ? "text-navy" : "text-slate-800 hover:text-navy"
                 }`}
                 onClick={() => setMobileOpen(false)}

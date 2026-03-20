@@ -38,7 +38,7 @@ export default function Home() {
           Law, Strategy and Risk Intelligence
         </span>
         <h1 className="animate-hero-delay-1 font-heading text-[2rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[3.75rem] leading-[1.15] text-navy tracking-tight">
-          <span className="italic font-normal">Strategic Legal</span> Infrastructure for Companies Building the <span className="uppercase tracking-wider">Future</span>
+          <span className="italic font-normal">Trusted Legal</span> Advisory for Companies Building the <span className="uppercase tracking-wider">Future</span>
         </h1>
 
         <p className="animate-hero-delay-2 mt-12 lg:ml-[15%] text-[1.05rem] text-slate-600 max-w-[580px] leading-relaxed">
@@ -178,11 +178,11 @@ export default function Home() {
         <ScrollReveal>
           <div className="max-w-[700px]">
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight mb-6">
-              Build the <span className="italic font-normal">Right Legal Architecture</span> for Your Business
+              Build the <span className="italic font-normal">Right Legal Framework</span> for Your Business from Day 0
             </h2>
             <p className="text-slate-600 leading-relaxed mb-10 max-w-[520px]">
               Schedule a strategy session with CORPRESC LEGAL to discuss your company&apos;s legal
-              infrastructure needs.
+              advisory needs.
             </p>
             <Link
               href="/contact"

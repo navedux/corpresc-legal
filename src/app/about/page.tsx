@@ -180,7 +180,7 @@ export default function AboutPage() {
         <div className="max-w-[700px]">
           <ScrollReveal>
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight mb-6">
-              Ready to Build Your <span className="italic font-normal">Legal Infrastructure</span>?
+              Ready to Build Your <span className="italic font-normal">Legal Framework</span>?
             </h2>
           </ScrollReveal>
           <ScrollReveal delay={100}>

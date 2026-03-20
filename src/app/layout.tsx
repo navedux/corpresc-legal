@@ -19,7 +19,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "CORPRESC LEGAL | Strategic Legal Advisory",
   description:
-    "Legal infrastructure for companies building the future. Strategic legal counsel across corporate structuring, regulatory strategy, commercial advisory, dispute management, and cross-border operations.",
+    "Trusted legal advisory for companies building the future. Strategic legal counsel across corporate structuring, regulatory strategy, commercial advisory, dispute management, and cross-border operations.",
   icons: {
     icon: "/favicon.webp",
     apple: "/favicon.webp",

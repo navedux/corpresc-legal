@@ -135,7 +135,7 @@ export default function HowWeWorkPage() {
         <div className="mb-16">
           <div className="w-12 h-px bg-navy mb-8" />
           <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight max-w-[600px]">
-            Four Steps to <span className="italic font-normal">Strategic Legal</span> Infrastructure
+            Four Steps to <span className="italic font-normal">Strategic Legal</span> Advisory
           </h2>
           <p className="text-slate-600 text-[1.05rem] mt-6 max-w-[580px]">
             Our structured advisory framework ensures comprehensive coverage from initial

@@ -102,7 +102,21 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-line mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        {/* Offices */}
+        <div className="border-t border-line mt-16 pt-8">
+          <h4 className="text-[11px] font-bold tracking-[0.15em] uppercase text-navy/40 mb-4">Offices</h4>
+          <div className="flex flex-wrap items-center gap-x-8 gap-y-2">
+            {["New Delhi", "Mumbai", "Bangalore", "London", "Dubai"].map((city, i) => (
+              <span key={city} className="flex items-center gap-3 text-slate-600 text-[13px]">
+                {city}
+                {i < 4 && <span className="hidden sm:inline text-slate-300">|</span>}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="border-t border-line mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-400 text-[12px]">
             &copy; {new Date().getFullYear()} CORPRESC LEGAL. All rights reserved.
           </p>

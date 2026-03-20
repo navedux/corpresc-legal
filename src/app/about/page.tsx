@@ -65,7 +65,7 @@ export default function AboutPage() {
       <section className="px-6 lg:px-[8%] py-24 border-t border-line hover:border-navy/40 transition-colors duration-300 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
           <ScrollReveal delay={0}>
-            <div className="border-t-2 border-navy pt-8 hover-lift">
+            <div className="border-t-2 border-navy pt-8 px-6 pb-6 hover:shadow-md hover:-translate-y-1 transition-all duration-300">
               <h3 className="font-heading text-2xl font-semibold text-navy mb-4">Our Vision</h3>
               <p className="text-slate-600 leading-relaxed">
                 To redefine legal advisory by embedding strategic thinking at every level of
@@ -75,7 +75,7 @@ export default function AboutPage() {
             </div>
           </ScrollReveal>
           <ScrollReveal delay={100}>
-            <div className="border-t-2 border-gold pt-8 hover-lift">
+            <div className="border-t-2 border-gold pt-8 px-6 pb-6 hover:shadow-md hover:-translate-y-1 transition-all duration-300">
               <h3 className="font-heading text-2xl font-semibold text-navy mb-4">Our Mission</h3>
               <p className="text-slate-600 leading-relaxed">
                 To provide structured legal counsel that supports global scalability, operational

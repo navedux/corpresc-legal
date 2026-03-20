@@ -104,7 +104,7 @@ export default function Footer() {
 
         {/* Offices */}
         <div className="border-t border-line mt-16 pt-8">
-          <h4 className="text-[11px] font-bold tracking-[0.15em] uppercase text-navy/40 mb-4">Offices</h4>
+          <h4 className="font-body text-[11px] font-bold tracking-[0.15em] uppercase text-navy/50 mb-4">Offices</h4>
           <div className="flex flex-wrap items-center gap-x-8 gap-y-2">
             {["New Delhi", "Mumbai", "Bangalore", "London", "Dubai"].map((city, i) => (
               <span key={city} className="flex items-center gap-3 text-slate-600 text-[13px]">

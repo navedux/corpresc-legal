@@ -40,7 +40,7 @@ export default function Home() {
           alt="Legal library"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0" style={{ background: "radial-gradient(circle at 50% 50%, rgba(10,58,86,0.82) 0%, rgba(2,31,48,0.92) 100%)" }} />
+        <div className="absolute inset-0 bg-black/40" />
         {/* Decorative SVG Lines */}
         <svg className="absolute inset-0 w-full h-full pointer-events-none opacity-[0.25]" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
           <g stroke="#8B7355" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round">

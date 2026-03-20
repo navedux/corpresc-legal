@@ -18,7 +18,7 @@ export default function Footer() {
 
           {/* Navigation */}
           <div>
-            <h4 className="text-[12px] font-bold tracking-[0.12em] uppercase text-navy/60 mb-5">
+            <h4 className="font-body text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
               Navigation
             </h4>
             <ul className="space-y-3">
@@ -40,7 +40,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-[12px] font-bold tracking-[0.12em] uppercase text-navy/60 mb-5">
+            <h4 className="font-body text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
               Services
             </h4>
             <ul className="space-y-3">
@@ -62,7 +62,7 @@ export default function Footer() {
 
           {/* Connect */}
           <div>
-            <h4 className="text-[12px] font-bold tracking-[0.12em] uppercase text-navy/60 mb-5">
+            <h4 className="font-body text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
               Connect
             </h4>
             <ul className="space-y-3">
@@ -84,7 +84,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-[12px] font-bold tracking-[0.12em] uppercase text-navy/60 mb-5">
+            <h4 className="font-body text-[12px] font-bold tracking-[0.12em] uppercase text-navy/50 mb-5">
               Get in Touch
             </h4>
             <p className="text-slate-500 text-[13px] leading-relaxed mb-6">

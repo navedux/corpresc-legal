@@ -75,7 +75,7 @@ export default function Home() {
           <div className="lg:w-[60%] px-6 lg:pl-[8%] lg:pr-20 pt-16 md:pt-24 pb-12 lg:pb-24">
             <h1 className="animate-hero-delay-1 font-heading text-[2rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[0.95] text-navy tracking-[-0.02em]">
               <span className="italic font-normal">Trusted Legal</span>{" "}
-              Advisory for Companies Building the Future.
+              Advisory for Companies Building the <span className="uppercase tracking-wider">Future</span>.
             </h1>
           </div>
           {/* Right — Description + CTA */}

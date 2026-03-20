@@ -30,7 +30,7 @@ export default function Footer() {
                 { href: "/contact", label: "Contact" },
               ].map((item) => (
                 <li key={item.label}>
-                  <Link href={item.href} className="text-slate-600 text-[13px] hover:text-navy transition-colors">
+                  <Link href={item.href} className="link-underline text-slate-600 text-[13px] hover:text-navy transition-colors">
                     {item.label}
                   </Link>
                 </li>
@@ -52,7 +52,7 @@ export default function Footer() {
                 { label: "Cross-Border Advisory", anchor: "cross-border-advisory" },
               ].map((service) => (
                 <li key={service.label}>
-                  <Link href={`/services#${service.anchor}`} className="text-slate-600 text-[13px] hover:text-navy transition-colors">
+                  <Link href={`/services#${service.anchor}`} className="link-underline text-slate-600 text-[13px] hover:text-navy transition-colors">
                     {service.label}
                   </Link>
                 </li>
@@ -74,7 +74,7 @@ export default function Footer() {
                 { label: "Instagram", href: "#" },
               ].map((social) => (
                 <li key={social.label}>
-                  <a href={social.href} target="_blank" rel="noopener noreferrer" className="text-slate-600 text-[13px] hover:text-navy transition-colors">
+                  <a href={social.href} target="_blank" rel="noopener noreferrer" className="link-underline text-slate-600 text-[13px] hover:text-navy transition-colors">
                     {social.label}
                   </a>
                 </li>

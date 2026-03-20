@@ -31,53 +31,51 @@ const industries = [
 
 export default function Home() {
   return (
-    <div className="relative w-full max-w-[1440px] mx-auto">
-      {/* Hero */}
-      <section className="px-6 lg:px-[8%] pt-16 pb-8 relative z-10">
-        <span className="animate-hero inline-block text-[11px] font-semibold tracking-[0.2em] uppercase text-gold border border-gold/30 bg-gold/[0.06] px-4 py-1.5 mb-8">
-          Law, Strategy and Risk Intelligence
-        </span>
-        <h1 className="animate-hero-delay-1 font-heading text-[2rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[3.75rem] leading-[1.15] text-navy tracking-tight">
-          <span className="italic font-normal">Trusted Legal</span> Advisory for Companies Building the <span className="uppercase tracking-wider">Future</span>
-        </h1>
-
-        <p className="animate-hero-delay-2 mt-12 lg:ml-[15%] text-[1.05rem] text-slate-600 max-w-[580px] leading-relaxed">
-          CORPRESC LEGAL provides <span className="font-semibold text-slate-700">Strategic Legal Counsel</span> to modern businesses across corporate structuring, regulatory strategy, commercial advisory, dispute management, and cross-border operations.
-        </p>
-
-        <div className="animate-hero-delay-3 mt-10 lg:ml-[15%] flex flex-col sm:flex-row gap-4">
-          <Link
-            href="/contact"
-            className="btn-shine bg-navy text-white px-8 py-3 text-[13px] font-medium flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300 w-fit"
-          >
-            Book a Legal Strategy Session
-            <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </Link>
-          <Link
-            href="/services"
-            className="btn-shine-outline border border-slate-300 text-slate-700 px-8 py-3 text-[13px] font-medium hover:border-navy hover:text-navy transition-colors duration-300 w-fit"
-          >
-            Explore Services
-          </Link>
+    <div className="relative w-full">
+      {/* Hero Banner */}
+      <section className="relative w-full h-[50vh] md:h-[60vh] lg:h-[70vh] overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1436450412740-6b988f486c6b?q=80&w=2070&auto=format&fit=crop"
+          alt="Legal library with law books and judicial references"
+          className="w-full h-full object-cover object-center animate-hero"
+        />
+        <div className="absolute inset-0 bg-navy/60 pointer-events-none" />
+        <div className="absolute bottom-8 left-6 lg:left-[8%] animate-hero-delay-1">
+          <span className="inline-block text-[11px] font-semibold tracking-[0.2em] uppercase text-gold/80">
+            Protect what&apos;s yours.
+          </span>
         </div>
       </section>
 
-      {/* Hero Image */}
-      <ScrollReveal className="mt-16 px-[6%]">
-        <div className="relative w-full h-[320px] md:h-[460px] lg:h-[520px] overflow-hidden">
-          <img
-            src="https://images.unsplash.com/photo-1436450412740-6b988f486c6b?q=80&w=2070&auto=format&fit=crop"
-            alt="Legal library with law books and judicial references"
-            className="w-full h-full object-cover object-center opacity-90 hover:scale-105 transition-transform duration-[1.5s] ease-out"
-          />
-          <div className="absolute inset-0 bg-navy/5 mix-blend-multiply pointer-events-none" />
+      {/* Hero Content */}
+      <section className="max-w-[1440px] mx-auto px-6 lg:px-[8%] py-16 md:py-24 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
+          <div className="lg:col-span-7">
+            <h1 className="animate-hero-delay-1 font-heading text-[2rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] leading-[1.1] text-navy tracking-tight">
+              <span className="italic font-normal">Trusted Legal</span> Advisory for Companies Building the Future.
+            </h1>
+          </div>
+          <div className="lg:col-span-4 lg:col-start-9 lg:border-l lg:border-line lg:pl-12 flex flex-col justify-center">
+            <p className="animate-hero-delay-2 text-[1.05rem] text-slate-600 leading-relaxed mb-8">
+              We&apos;re strategic legal advisors helping modern businesses navigate corporate structuring, regulatory strategy, and cross-border operations.
+            </p>
+            <div className="animate-hero-delay-3">
+              <Link
+                href="/contact"
+                className="btn-shine-outline group inline-flex items-center gap-3 border border-navy text-navy px-8 py-3 text-[13px] font-medium hover:bg-navy hover:text-white transition-all duration-300"
+              >
+                Contact Us
+                <svg className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+            </div>
+          </div>
         </div>
-      </ScrollReveal>
+      </section>
 
       {/* Legal Infrastructure Model */}
-      <section className="px-6 lg:px-[8%] py-24 border-t border-line relative z-10">
+      <section className="max-w-[1440px] mx-auto px-6 lg:px-[8%] py-24 border-t border-line relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
           <ScrollReveal className="lg:col-span-5" direction="left">
             <div className="w-12 h-px bg-navy mb-8" />
@@ -118,7 +116,7 @@ export default function Home() {
       </section>
 
       {/* Core Services */}
-      <section className="px-6 lg:px-[8%] py-24 border-t border-line relative z-10">
+      <section className="max-w-[1440px] mx-auto px-6 lg:px-[8%] py-24 border-t border-line relative z-10">
         <ScrollReveal>
           <div className="mb-16">
             <div className="w-12 h-px bg-navy mb-8" />
@@ -151,7 +149,7 @@ export default function Home() {
       </section>
 
       {/* Industries */}
-      <section className="px-6 lg:px-[8%] py-24 border-t border-line relative z-10">
+      <section className="max-w-[1440px] mx-auto px-6 lg:px-[8%] py-24 border-t border-line relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
           <ScrollReveal className="lg:col-span-4" direction="left">
             <div className="w-12 h-px bg-navy mb-8" />
@@ -174,7 +172,7 @@ export default function Home() {
       </section>
 
       {/* Final CTA */}
-      <section className="px-6 lg:px-[8%] py-24 border-t border-line relative z-10">
+      <section className="max-w-[1440px] mx-auto px-6 lg:px-[8%] py-24 border-t border-line relative z-10">
         <ScrollReveal>
           <div className="max-w-[700px]">
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight mb-6">

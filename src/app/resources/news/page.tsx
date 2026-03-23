@@ -79,10 +79,10 @@ export default function NewsPage() {
                     <h2 className="font-heading text-xl md:text-2xl font-semibold text-navy mb-3 group-hover:text-gold transition-colors duration-300 leading-snug">
                       {article.title}
                     </h2>
-                    <p className="text-slate-500 text-sm leading-relaxed max-w-[600px] mb-4">
+                    <p className="text-slate-500 text-[15px] leading-relaxed max-w-[600px] mb-4">
                       {article.excerpt}
                     </p>
-                    <span className="inline-flex items-center gap-2 text-navy text-[13px] font-medium">
+                    <span className="inline-flex items-center gap-2 text-navy text-[15px] font-medium">
                       Read More
                       <svg className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -108,7 +108,7 @@ export default function NewsPage() {
             </p>
             <Link
               href="/contact"
-              className="btn-shine group bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
+              className="btn-shine group bg-navy text-white px-8 py-3 text-[15px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
             >
               Contact Us
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

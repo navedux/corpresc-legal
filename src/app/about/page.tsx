@@ -112,9 +112,9 @@ export default function AboutPage() {
           ].map((layer, i) => (
             <ScrollReveal key={layer.num} delay={i * 80}>
               <div className="py-8 md:px-6 first:md:pl-0 last:md:pr-0 border-t border-line md:border-t-0 md:border-l md:first:border-l-0">
-                <span className="font-heading text-2xl text-navy/50 font-bold">{layer.num}</span>
+                <span className="font-heading text-2xl text-navy/35 font-bold">{layer.num}</span>
                 <h3 className="font-heading text-lg font-semibold text-navy mt-3 mb-2">{layer.title}</h3>
-                <p className="text-slate-500 text-[13px] leading-relaxed">{layer.desc}</p>
+                <p className="text-slate-500 text-[15px] leading-relaxed">{layer.desc}</p>
               </div>
             </ScrollReveal>
           ))}
@@ -166,8 +166,8 @@ export default function AboutPage() {
                   </span>
                 </div>
                 <h3 className="font-heading text-lg font-semibold text-navy">{member.name}</h3>
-                <p className="text-gold text-[12px] font-medium tracking-wide mt-1 mb-3">{member.role}</p>
-                <p className="text-slate-500 text-[13px] leading-relaxed">{member.desc}</p>
+                <p className="text-gold text-[15px] font-medium tracking-wide mt-1 mb-3">{member.role}</p>
+                <p className="text-slate-500 text-[15px] leading-relaxed">{member.desc}</p>
               </div>
             </ScrollReveal>
           ))}
@@ -191,7 +191,7 @@ export default function AboutPage() {
           <ScrollReveal delay={200}>
             <Link
               href="/contact"
-              className="btn-shine group bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
+              className="btn-shine group bg-navy text-white px-8 py-3 text-[15px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
             >
               Book a Consultation
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -47,7 +47,7 @@ export default function Disclaimer() {
         <div className="shrink-0 px-8 md:px-10 pb-8 md:pb-10 pt-8 md:pt-10 border-t border-line">
           <button
             onClick={accept}
-            className="btn-shine bg-navy text-white px-8 py-3 text-[13px] font-medium hover:bg-navy-dark transition-colors duration-300 w-full"
+            className="btn-shine bg-navy text-white px-8 py-3 text-[15px] font-medium hover:bg-navy-dark transition-colors duration-300 w-full"
           >
             I Understand &amp; Accept
           </button>

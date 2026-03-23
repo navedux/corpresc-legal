@@ -88,7 +88,7 @@ export default function Navbar() {
                         <Link
                           key={child.href}
                           href={child.href}
-                          className={`block px-5 py-2.5 text-[14px] transition-colors duration-200 ${
+                          className={`block px-5 py-2.5 text-[15px] transition-colors duration-200 ${
                             pathname === child.href
                               ? "text-navy bg-navy/[0.04]"
                               : "text-slate-600 hover:text-navy hover:bg-navy/[0.03]"
@@ -121,7 +121,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2 sm:gap-3">
           <Link
             href="/contact"
-            className="btn-shine group hidden sm:flex bg-navy text-white px-6 py-2.5 text-[13px] font-medium items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
+            className="btn-shine group hidden sm:flex bg-navy text-white px-6 py-2.5 text-[15px] font-medium items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
           >
             Contact Us
             <svg className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -180,7 +180,7 @@ export default function Navbar() {
                         <Link
                           key={child.href}
                           href={child.href}
-                          className={`block py-2 text-[13px] ${
+                          className={`block py-2 text-[15px] ${
                             pathname === child.href ? "text-navy font-medium" : "text-slate-600 hover:text-navy"
                           }`}
                           onClick={() => setMobileOpen(false)}
@@ -209,7 +209,7 @@ export default function Navbar() {
           })}
           <Link
             href="/contact"
-            className="block mt-4 bg-navy text-white px-6 py-3 text-[13px] font-medium text-center hover:bg-navy-dark transition-colors"
+            className="block mt-4 bg-navy text-white px-6 py-3 text-[15px] font-medium text-center hover:bg-navy-dark transition-colors"
             onClick={() => setMobileOpen(false)}
           >
             Contact Us

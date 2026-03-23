@@ -71,10 +71,10 @@ export default function InternshipsPage() {
                   </h3>
                   <span className="text-[12px] text-slate-500 shrink-0">{prog.duration}</span>
                 </div>
-                <p className="text-slate-500 text-sm leading-relaxed max-w-[640px] mb-6">{prog.desc}</p>
+                <p className="text-slate-500 text-[15px] leading-relaxed max-w-[640px] mb-6">{prog.desc}</p>
                 <Link
                   href="/contact"
-                  className="inline-flex items-center gap-2 text-navy text-[13px] font-medium border-b border-navy pb-0.5 hover:opacity-70 transition-opacity"
+                  className="inline-flex items-center gap-2 text-navy text-[15px] font-medium border-b border-navy pb-0.5 hover:opacity-70 transition-opacity"
                 >
                   Apply Now
                   <svg className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -102,7 +102,7 @@ export default function InternshipsPage() {
                 {benefits.map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <span className="w-px h-4 bg-navy/30 mt-0.5 flex-shrink-0" />
-                    <span className="text-slate-700 text-[13px]">{item}</span>
+                    <span className="text-slate-700 text-[15px]">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -124,7 +124,7 @@ export default function InternshipsPage() {
             </p>
             <Link
               href="/contact"
-              className="btn-shine group bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
+              className="btn-shine group bg-navy text-white px-8 py-3 text-[15px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
             >
               Apply for an Internship
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

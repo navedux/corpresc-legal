@@ -80,7 +80,7 @@ export default function ServicesPage() {
               className="group grid grid-cols-1 lg:grid-cols-12 gap-12 py-16 border-t border-line hover:bg-navy/[0.02] hover:px-4 transition-all duration-300 scroll-mt-24"
             >
               <div className="lg:col-span-5">
-                <span className="number-accent font-heading text-sm text-navy/45 font-bold">
+                <span className="number-accent font-heading text-base text-navy/35 font-bold">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 <h2 className="font-heading text-2xl md:text-[1.75rem] font-semibold text-navy mt-3 mb-4 leading-snug">
@@ -93,7 +93,7 @@ export default function ServicesPage() {
                   {service.items.map((item) => (
                     <li key={item} className="flex items-start gap-3">
                       <span className="w-px h-4 bg-navy/30 mt-0.5 flex-shrink-0" />
-                      <span className="text-slate-700 text-[13px]">{item}</span>
+                      <span className="text-slate-700 text-[15px]">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -116,7 +116,7 @@ export default function ServicesPage() {
             </p>
             <Link
               href="/contact"
-              className="btn-shine group bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
+              className="btn-shine group bg-navy text-white px-8 py-3 text-[15px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
             >
               Book a Consultation
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

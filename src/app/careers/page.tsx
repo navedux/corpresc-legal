@@ -75,8 +75,8 @@ export default function CareersPage() {
                 <h3 className="font-heading text-2xl font-semibold text-navy mt-3 mb-4 group-hover:text-gold transition-colors duration-300">
                   {dept.title}
                 </h3>
-                <p className="text-slate-500 text-sm leading-relaxed mb-6">{dept.desc}</p>
-                <span className="inline-flex items-center gap-2 text-navy text-[13px] font-medium">
+                <p className="text-slate-500 text-[15px] leading-relaxed mb-6">{dept.desc}</p>
+                <span className="inline-flex items-center gap-2 text-navy text-[15px] font-medium">
                   View Openings
                   <svg className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -103,7 +103,7 @@ export default function CareersPage() {
                 <ScrollReveal key={value.title} delay={i * 100}>
                   <div className="border-t border-line pt-6 hover:border-navy/40 transition-colors duration-300">
                     <h3 className="font-heading text-lg font-semibold text-navy mb-2">{value.title}</h3>
-                    <p className="text-slate-500 text-sm leading-relaxed">{value.desc}</p>
+                    <p className="text-slate-500 text-[15px] leading-relaxed">{value.desc}</p>
                   </div>
                 </ScrollReveal>
               ))}
@@ -125,7 +125,7 @@ export default function CareersPage() {
             </p>
             <Link
               href="/contact"
-              className="btn-shine group bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
+              className="btn-shine group bg-navy text-white px-8 py-3 text-[15px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
             >
               Get in Touch
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

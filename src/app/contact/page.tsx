@@ -61,7 +61,7 @@ export default function ContactPage() {
             <form onSubmit={handleSubmit} className="border-t border-line pt-12">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
-                  <label htmlFor="name" className="block text-[13px] font-medium text-slate-800 mb-2">
+                  <label htmlFor="name" className="block text-[15px] font-medium text-slate-800 mb-2">
                     Name <span className="text-gold">*</span>
                   </label>
                   <input
@@ -69,13 +69,13 @@ export default function ContactPage() {
                     id="name"
                     name="name"
                     required
-                    className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-sm bg-transparent focus:outline-none focus:border-navy transition-colors placeholder:text-slate-400"
+                    className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-[15px] bg-transparent focus:outline-none focus:border-navy transition-colors placeholder:text-slate-400"
                     placeholder="Your full name"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="company" className="block text-[13px] font-medium text-slate-800 mb-2">
+                  <label htmlFor="company" className="block text-[15px] font-medium text-slate-800 mb-2">
                     Company <span className="text-gold">*</span>
                   </label>
                   <input
@@ -83,13 +83,13 @@ export default function ContactPage() {
                     id="company"
                     name="company"
                     required
-                    className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-sm bg-transparent focus:outline-none focus:border-navy transition-colors placeholder:text-slate-400"
+                    className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-[15px] bg-transparent focus:outline-none focus:border-navy transition-colors placeholder:text-slate-400"
                     placeholder="Company name"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-[13px] font-medium text-slate-800 mb-2">
+                  <label htmlFor="email" className="block text-[15px] font-medium text-slate-800 mb-2">
                     Email <span className="text-gold">*</span>
                   </label>
                   <input
@@ -97,32 +97,32 @@ export default function ContactPage() {
                     id="email"
                     name="email"
                     required
-                    className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-sm bg-transparent focus:outline-none focus:border-navy transition-colors placeholder:text-slate-400"
+                    className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-[15px] bg-transparent focus:outline-none focus:border-navy transition-colors placeholder:text-slate-400"
                     placeholder="you@company.com"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="jurisdiction" className="block text-[13px] font-medium text-slate-800 mb-2">
+                  <label htmlFor="jurisdiction" className="block text-[15px] font-medium text-slate-800 mb-2">
                     Jurisdiction
                   </label>
                   <input
                     type="text"
                     id="jurisdiction"
                     name="jurisdiction"
-                    className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-sm bg-transparent focus:outline-none focus:border-navy transition-colors placeholder:text-slate-400"
+                    className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-[15px] bg-transparent focus:outline-none focus:border-navy transition-colors placeholder:text-slate-400"
                     placeholder="e.g. United Kingdom, India, UAE"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="stage" className="block text-[13px] font-medium text-slate-800 mb-2">
+                  <label htmlFor="stage" className="block text-[15px] font-medium text-slate-800 mb-2">
                     Stage of Company
                   </label>
                   <select
                     id="stage"
                     name="stage"
-                    className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-sm bg-transparent focus:outline-none focus:border-navy transition-colors"
+                    className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-[15px] bg-transparent focus:outline-none focus:border-navy transition-colors"
                   >
                     <option value="">Select stage</option>
                     {stageOptions.map((opt) => (
@@ -132,13 +132,13 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="service" className="block text-[13px] font-medium text-slate-800 mb-2">
+                  <label htmlFor="service" className="block text-[15px] font-medium text-slate-800 mb-2">
                     Service Needed
                   </label>
                   <select
                     id="service"
                     name="service"
-                    className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-sm bg-transparent focus:outline-none focus:border-navy transition-colors"
+                    className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-[15px] bg-transparent focus:outline-none focus:border-navy transition-colors"
                   >
                     <option value="">Select service</option>
                     {serviceOptions.map((opt) => (
@@ -149,14 +149,14 @@ export default function ContactPage() {
               </div>
 
               <div className="mt-8">
-                <label htmlFor="message" className="block text-[13px] font-medium text-slate-800 mb-2">
+                <label htmlFor="message" className="block text-[15px] font-medium text-slate-800 mb-2">
                   Message
                 </label>
                 <textarea
                   id="message"
                   name="message"
                   rows={4}
-                  className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-sm bg-transparent focus:outline-none focus:border-navy transition-colors resize-none placeholder:text-slate-400"
+                  className="w-full px-0 py-3 border-0 border-b border-line text-slate-800 text-[15px] bg-transparent focus:outline-none focus:border-navy transition-colors resize-none placeholder:text-slate-400"
                   placeholder="Tell us about your business and how we can help..."
                 />
               </div>
@@ -164,7 +164,7 @@ export default function ContactPage() {
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6">
                 <button
                   type="submit"
-                  className="btn-shine bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
+                  className="btn-shine bg-navy text-white px-8 py-3 text-[15px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
                 >
                   Submit Inquiry
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

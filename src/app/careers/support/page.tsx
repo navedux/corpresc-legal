@@ -64,10 +64,10 @@ export default function SupportCareersPage() {
                     <span>{role.type}</span>
                   </div>
                 </div>
-                <p className="text-slate-500 text-sm leading-relaxed max-w-[640px] mb-6">{role.desc}</p>
+                <p className="text-slate-500 text-[15px] leading-relaxed max-w-[640px] mb-6">{role.desc}</p>
                 <Link
                   href="/contact"
-                  className="inline-flex items-center gap-2 text-navy text-[13px] font-medium border-b border-navy pb-0.5 hover:opacity-70 transition-opacity"
+                  className="inline-flex items-center gap-2 text-navy text-[15px] font-medium border-b border-navy pb-0.5 hover:opacity-70 transition-opacity"
                 >
                   Apply Now
                   <svg className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -92,7 +92,7 @@ export default function SupportCareersPage() {
             </p>
             <Link
               href="/contact"
-              className="btn-shine group bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
+              className="btn-shine group bg-navy text-white px-8 py-3 text-[15px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
             >
               Submit Your Application
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

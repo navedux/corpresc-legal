@@ -86,7 +86,7 @@ export default function Home() {
             <div className="animate-hero-delay-3 flex flex-col gap-4">
               <Link
                 href="/contact"
-                className="btn-shine bg-navy text-white px-8 h-[46px] text-[13px] font-medium flex items-center justify-center gap-2 hover:bg-navy-dark transition-colors duration-300 w-full max-w-[280px]"
+                className="btn-shine bg-navy text-white px-8 h-[46px] text-[15px] font-medium flex items-center justify-center gap-2 hover:bg-navy-dark transition-colors duration-300 w-full max-w-[280px]"
               >
                 Book a Consultation
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -95,7 +95,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/services"
-                className="btn-shine-outline border border-slate-300 text-slate-700 px-8 h-[46px] text-[13px] font-medium flex items-center justify-center hover:border-navy hover:text-navy transition-colors duration-300 w-full max-w-[280px]"
+                className="btn-shine-outline border border-slate-300 text-slate-700 px-8 h-[46px] text-[15px] font-medium flex items-center justify-center hover:border-navy hover:text-navy transition-colors duration-300 w-full max-w-[280px]"
               >
                 Explore Services
               </Link>
@@ -119,7 +119,7 @@ export default function Home() {
             </p>
             <Link
               href="/how-we-work"
-              className="group inline-flex items-center gap-2 text-navy text-[13px] font-medium border-b border-navy pb-0.5 hover:opacity-70 transition-opacity"
+              className="group inline-flex items-center gap-2 text-navy text-[15px] font-medium border-b border-navy pb-0.5 hover:opacity-70 transition-opacity"
             >
               Learn How We Work
               <svg className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -131,12 +131,12 @@ export default function Home() {
             {infrastructureLayers.map((layer, i) => (
               <ScrollReveal key={layer.label} delay={i * 80}>
                 <div className="group flex items-start gap-6 py-6 border-t border-line last:border-b hover:bg-navy/[0.02] hover:px-4 transition-all duration-300 cursor-default">
-                  <span className="font-heading text-2xl text-navy/45 font-bold leading-none mt-0.5 number-accent transition-colors duration-300">
+                  <span className="font-heading text-2xl text-navy/35 font-bold leading-none mt-0.5 number-accent transition-colors duration-300">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <div>
                     <h3 className="font-heading text-lg font-semibold text-navy">{layer.label}</h3>
-                    <p className="text-slate-500 text-sm mt-1">{layer.desc}</p>
+                    <p className="text-slate-500 text-[15px] mt-1">{layer.desc}</p>
                   </div>
                 </div>
               </ScrollReveal>
@@ -165,13 +165,13 @@ export default function Home() {
                 href="/services"
                 className="group block py-8 border-t border-line hover:border-navy/40 transition-colors duration-300"
               >
-                <span className="font-heading text-sm text-navy/45 font-bold number-accent transition-colors duration-300">
+                <span className="font-heading text-base text-navy/35 font-bold number-accent transition-colors duration-300">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <h3 className="font-heading text-[1.05rem] font-semibold text-navy mt-3 mb-2 group-hover:text-gold transition-colors duration-300 leading-snug">
+                <h3 className="font-heading text-[1.1rem] font-semibold text-navy mt-3 mb-2 group-hover:text-gold transition-colors duration-300 leading-snug">
                   {service.title}
                 </h3>
-                <p className="text-slate-500 text-[13px] leading-relaxed">{service.desc}</p>
+                <p className="text-slate-500 text-[15px] leading-relaxed">{service.desc}</p>
               </Link>
             </ScrollReveal>
           ))}
@@ -192,7 +192,7 @@ export default function Home() {
               {industries.map((name, i) => (
                 <ScrollReveal key={name} delay={i * 80}>
                   <div className="py-6 border-t border-line hover:border-navy/40 transition-colors duration-300">
-                    <p className="text-navy text-sm font-medium">{name}</p>
+                    <p className="text-navy text-[15px] font-medium">{name}</p>
                   </div>
                 </ScrollReveal>
               ))}
@@ -214,7 +214,7 @@ export default function Home() {
             </p>
             <Link
               href="/contact"
-              className="btn-shine group bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
+              className="btn-shine group bg-navy text-white px-8 py-3 text-[15px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
             >
               Book a Legal Strategy Session
               <svg className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

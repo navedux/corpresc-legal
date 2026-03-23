@@ -78,7 +78,7 @@ export default function HowWeWorkPage() {
                 <ScrollReveal key={item.title} delay={i * 100}>
                   <div className="border-t border-line pt-6 hover:border-navy/40 transition-colors duration-300">
                     <h3 className="font-heading text-lg font-semibold text-navy mb-2">{item.title}</h3>
-                    <p className="text-slate-500 text-sm leading-relaxed">{item.desc}</p>
+                    <p className="text-slate-500 text-[15px] leading-relaxed">{item.desc}</p>
                   </div>
                 </ScrollReveal>
               ))}
@@ -121,7 +121,7 @@ export default function HowWeWorkPage() {
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <span className="w-px h-4 bg-navy/30 mt-0.5 flex-shrink-0" />
-                    <span className="text-slate-700 text-[13px]">{item}</span>
+                    <span className="text-slate-700 text-[15px]">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -146,10 +146,10 @@ export default function HowWeWorkPage() {
           {steps.map((step, index) => (
             <ScrollReveal key={step.num} delay={index * 100}>
               <div className="group py-10 border-t border-line hover:bg-navy/[0.02] hover:px-4 transition-all duration-300">
-                <span className="font-heading text-2xl text-navy/45 font-bold number-accent">{step.num}</span>
+                <span className="font-heading text-2xl text-navy/35 font-bold number-accent">{step.num}</span>
                 <h3 className="font-heading text-2xl font-semibold text-navy mt-4 mb-1">{step.title}</h3>
-                <p className="text-gold text-[13px] font-medium mb-4 tracking-wide">{step.subtitle}</p>
-                <p className="text-slate-500 text-sm leading-relaxed">{step.desc}</p>
+                <p className="text-gold text-[15px] font-medium mb-4 tracking-wide">{step.subtitle}</p>
+                <p className="text-slate-500 text-[15px] leading-relaxed">{step.desc}</p>
               </div>
             </ScrollReveal>
           ))}
@@ -189,7 +189,7 @@ export default function HowWeWorkPage() {
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <span className="w-px h-4 bg-navy/30 mt-0.5 flex-shrink-0" />
-                    <span className="text-slate-700 text-[13px]">{item}</span>
+                    <span className="text-slate-700 text-[15px]">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -211,7 +211,7 @@ export default function HowWeWorkPage() {
             </p>
             <Link
               href="/contact"
-              className="btn-shine group bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
+              className="btn-shine group bg-navy text-white px-8 py-3 text-[15px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
             >
               Book a Legal Strategy Session
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

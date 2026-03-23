@@ -2,14 +2,14 @@ import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const services = [
-  { title: "Entity Formation & Corporate Structuring", desc: "Designing corporate architecture for scalability, governance, and jurisdictional efficiency." },
-  { title: "Regulatory & Jurisdiction Strategy", desc: "Navigating complex regulatory landscapes across multiple jurisdictions with precision." },
-  { title: "Commercial & Strategic Legal Advisory", desc: "Strategic counsel for partnerships, market entry, and commercial growth decisions." },
-  { title: "Contracts & Documentation", desc: "Robust legal documentation frameworks built for modern business operations." },
-  { title: "Intellectual Property & Brand Protection", desc: "Comprehensive IP strategy from registration to enforcement across borders." },
-  { title: "Product & Platform Legal Review", desc: "Legal review of product architecture, terms, compliance, and platform governance." },
-  { title: "Disputes, Arbitration & Litigation", desc: "Strategic dispute resolution from negotiation through arbitration and litigation." },
-  { title: "Cross-Border Advisory", desc: "Multi-jurisdictional legal strategy for companies operating across borders." },
+  { title: "Corporate Structuring & Governance", desc: "Company formation, structuring, governance, and entity management." },
+  { title: "Regulatory & Jurisdiction Advisory", desc: "Regulatory compliance, jurisdictional analysis, and legal support across operating markets." },
+  { title: "Commercial & Strategic Legal Advisory", desc: "Commercial contracts, transaction support, and business-facing legal counsel." },
+  { title: "Contracts & Documentation", desc: "Drafting, review, negotiation, and management of legal and commercial documentation." },
+  { title: "Intellectual Property & Brand Protection", desc: "IP protection, registrations, brand-related legal support, and rights management." },
+  { title: "Internal Policies & Operational Controls", desc: "Internal policies, legal processes, and operational compliance controls." },
+  { title: "Disputes, Arbitration & Litigation", desc: "Dispute resolution, arbitration support, litigation strategy, and matter management." },
+  { title: "Cross-Border Advisory", desc: "Multi-jurisdictional legal strategy, cross-border transaction support, and global compliance." },
 ];
 
 const infrastructureLayers = [

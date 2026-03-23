@@ -27,10 +27,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Enforce minimum 16px font size on all text elements */
-p, a, span, li, td, th, label, input, textarea, select, button, div {
-  font-size: max(var(--tw-font-size, 15px), 15px);
-}
+/* Base text sizing — Tailwind utilities override via specificity */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);

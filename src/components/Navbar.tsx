@@ -60,7 +60,7 @@ export default function Navbar() {
 
       {/* Desktop Nav */}
       <div className="flex items-center gap-10" ref={dropdownRef}>
-        <nav className="hidden lg:flex items-center gap-8 text-[14px] font-medium text-slate-900">
+        <nav className="hidden lg:flex items-center gap-8 text-[15px] font-medium text-slate-900">
           {navItems.map((item) => {
             if ("children" in item && item.children) {
               const isActive = item.children.some((c) => pathname.startsWith(c.href));

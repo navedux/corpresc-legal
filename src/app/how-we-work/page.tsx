@@ -146,7 +146,7 @@ export default function HowWeWorkPage() {
           {steps.map((step, index) => (
             <ScrollReveal key={step.num} delay={index * 100}>
               <div className="group py-10 border-t border-line hover:bg-navy/[0.02] hover:px-4 transition-all duration-300">
-                <span className="font-heading text-2xl text-navy/35 font-bold number-accent">{step.num}</span>
+                <span className="font-heading text-3xl text-navy/40 font-bold number-accent">{step.num}</span>
                 <h3 className="font-heading text-2xl font-semibold text-navy mt-4 mb-1">{step.title}</h3>
                 <p className="text-gold text-[15px] font-medium mb-4 tracking-wide">{step.subtitle}</p>
                 <p className="text-slate-500 text-[15px] leading-relaxed">{step.desc}</p>

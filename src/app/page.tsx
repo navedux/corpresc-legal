@@ -131,7 +131,7 @@ export default function Home() {
             {infrastructureLayers.map((layer, i) => (
               <ScrollReveal key={layer.label} delay={i * 80}>
                 <div className="group flex items-start gap-6 py-6 border-t border-line last:border-b hover:bg-navy/[0.02] hover:px-4 transition-all duration-300 cursor-default">
-                  <span className="font-heading text-2xl text-navy/35 font-bold leading-none mt-0.5 number-accent transition-colors duration-300">
+                  <span className="font-heading text-3xl text-navy/40 font-bold leading-none mt-0.5 number-accent transition-colors duration-300">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <div>
@@ -165,7 +165,7 @@ export default function Home() {
                 href="/services"
                 className="group block py-8 border-t border-line hover:border-navy/40 transition-colors duration-300"
               >
-                <span className="font-heading text-base text-navy/35 font-bold number-accent transition-colors duration-300">
+                <span className="font-heading text-xl text-navy/40 font-bold number-accent transition-colors duration-300">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <h3 className="font-heading text-[1.1rem] font-semibold text-navy mt-3 mb-2 group-hover:text-gold transition-colors duration-300 leading-snug">

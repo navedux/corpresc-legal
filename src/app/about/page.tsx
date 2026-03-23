@@ -112,7 +112,7 @@ export default function AboutPage() {
           ].map((layer, i) => (
             <ScrollReveal key={layer.num} delay={i * 80}>
               <div className="py-8 md:px-6 first:md:pl-0 last:md:pr-0 border-t border-line md:border-t-0 md:border-l md:first:border-l-0">
-                <span className="font-heading text-2xl text-navy/35 font-bold">{layer.num}</span>
+                <span className="font-heading text-3xl text-navy/40 font-bold">{layer.num}</span>
                 <h3 className="font-heading text-lg font-semibold text-navy mt-3 mb-2">{layer.title}</h3>
                 <p className="text-slate-500 text-[15px] leading-relaxed">{layer.desc}</p>
               </div>
@@ -161,7 +161,7 @@ export default function AboutPage() {
             <ScrollReveal key={member.name} delay={i * 120}>
               <div className="group">
                 <div className="w-full aspect-[4/5] bg-gradient-to-br from-navy/[0.06] to-navy/[0.02] flex items-center justify-center mb-6 overflow-hidden">
-                  <span className="font-heading text-5xl text-navy/15 font-bold group-hover:text-navy/25 transition-colors duration-500">
+                  <span className="font-heading text-5xl text-navy/15 font-bold group-hover:text-navy/40 transition-colors duration-500">
                     {member.initials}
                   </span>
                 </div>

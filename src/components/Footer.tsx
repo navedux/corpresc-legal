@@ -5,9 +5,9 @@ export default function Footer() {
   return (
     <footer className="border-t border-line">
       <div className="max-w-[1440px] mx-auto px-6 lg:px-[8%] py-20">
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-12 md:gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-12 md:gap-10">
           {/* Brand */}
-          <div className="col-span-2 md:col-span-1">
+          <div className="col-span-2">
             <Link href="/">
               <Image src="/CL_Logo.svg" alt="CORPRESC LEGAL" width={140} height={35} className="h-8 w-auto object-contain" />
             </Link>
@@ -105,7 +105,7 @@ export default function Footer() {
         {/* Offices */}
         <div className="border-t border-line mt-16 pt-8">
           <p className="text-[13px] font-bold tracking-[0.15em] uppercase text-navy/70 mb-4">Offices</p>
-          <div className="flex flex-wrap items-center gap-x-8 gap-y-2">
+          <div className="flex flex-wrap items-center justify-start gap-x-12 gap-y-2">
             {["New Delhi", "Gurugram", "Bangalore", "London"].map((city, i) => (
               <span key={city} className="flex items-center gap-3 text-slate-600 text-[15px]">
                 {city}

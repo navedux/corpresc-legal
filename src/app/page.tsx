@@ -74,21 +74,21 @@ export default function Home() {
           {/* Left — Heading */}
           <div className="lg:w-[60%] px-6 lg:pl-[8%] lg:pr-20 pt-16 md:pt-24 pb-12 lg:pb-24">
             <h1 className="animate-hero-delay-1 font-heading text-[2rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4.5rem] leading-[0.95] text-navy tracking-[-0.02em]">
-              <span className="italic font-normal">Trusted Legal</span>{" "}
-              Advisory for Companies Building the <span className="uppercase tracking-wider">Future</span>.
+              <span className="italic font-normal">Trusted Legal</span> Services{" "}
+              for Businesses Building the <span className="uppercase tracking-wider">Future</span>
             </h1>
           </div>
           {/* Right — Description + CTA */}
           <div className="lg:w-[40%] lg:border-l lg:border-line px-6 lg:pl-16 lg:pr-[8%] pt-8 lg:pt-24 pb-16 lg:pb-24 flex flex-col justify-center">
             <p className="animate-hero-delay-2 text-[1.05rem] text-slate-600 leading-[1.65] mb-10 max-w-[420px] font-medium">
-              CORPRESC LEGAL provides <span className="font-semibold text-slate-700">Strategic Legal Counsel</span> to modern businesses across corporate structuring, regulatory strategy, commercial advisory, dispute management, and cross-border operations.
+              CORPRESC LEGAL supports businesses across their full legal lifecycle — from company formation and structuring to contracts, compliance, disputes, and litigation management.
             </p>
             <div className="animate-hero-delay-3 flex flex-col gap-4">
               <Link
                 href="/contact"
                 className="btn-shine bg-navy text-white px-8 h-[46px] text-[13px] font-medium flex items-center justify-center gap-2 hover:bg-navy-dark transition-colors duration-300 w-full max-w-[280px]"
               >
-                Book a Legal Strategy Session
+                Book a Consultation
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
@@ -206,7 +206,7 @@ export default function Home() {
         <ScrollReveal>
           <div className="max-w-[700px]">
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight mb-6">
-              Build the <span className="italic font-normal">Right Legal Framework</span> for Your Business from Day 0
+              Build the <span className="italic font-normal">Right Legal Framework</span> for Your Business from Day One
             </h2>
             <p className="text-slate-600 leading-relaxed mb-10 max-w-[520px]">
               Schedule a strategy session with CORPRESC LEGAL to discuss your company&apos;s legal

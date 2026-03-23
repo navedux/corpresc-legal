@@ -15,12 +15,11 @@ export default function AboutPage() {
       <section className="px-6 lg:px-[8%] pt-16 pb-24 relative z-10">
         <div className="w-12 h-px bg-navy mb-8 animate-hero" />
         <h1 className="font-heading text-[2rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4.25rem] leading-[1.15] text-navy max-w-[800px] tracking-tight animate-hero-delay-1">
-          Redefining <span className="italic font-normal">Legal Advisory</span> Through Strategic Thinking
+          <span className="italic font-normal">Legal Advisory</span> Services Built Around Business Needs
         </h1>
         <p className="mt-12 lg:ml-[15%] text-[1.05rem] text-slate-600 max-w-[560px] leading-relaxed animate-hero-delay-2">
-          CORPRESC LEGAL operates at the intersection of law, strategy, and global business —
-          delivering integrated legal counsel that builds lasting infrastructure for
-          forward-thinking companies.
+          CORPRESC LEGAL is a legal services firm advising and supporting businesses on company
+          setup, commercial documentation, compliance, dispute resolution, and litigation management.
         </p>
       </section>
 
@@ -31,30 +30,30 @@ export default function AboutPage() {
             <ScrollReveal direction="left">
               <div className="w-12 h-px bg-navy mb-8" />
               <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight">
-                An <span className="italic font-normal">Integrated</span> Advisory Practice
+                <span className="italic font-normal">End-to-End</span> Legal Services for Businesses
               </h2>
             </ScrollReveal>
           </div>
           <div className="lg:col-span-7 lg:col-start-6 space-y-6 text-slate-600 leading-relaxed">
             <ScrollReveal delay={0}>
               <p>
-                CORPRESC LEGAL is a strategic legal advisory practice that integrates corporate
-                structuring, regulatory strategy, commercial advisory, and dispute management into
-                a unified service model.
+                CORPRESC LEGAL is a legal services firm supporting businesses across their full legal
+                lifecycle: from company formation and structuring to commercial contracts, regulatory
+                compliance, dispute resolution, and litigation management.
               </p>
             </ScrollReveal>
             <ScrollReveal delay={100}>
               <p>
-                Unlike traditional law firms that operate in siloed practice areas, we deliver
-                holistic legal counsel — ensuring that every dimension of your company&apos;s legal
-                landscape is addressed through a single strategic lens.
+                We advise companies across sectors and industries, from established enterprises to
+                founder-led, growth-stage, AI-driven, and innovation-led businesses, with practical
+                and reliable legal support through growth, transactions, and regulatory complexity.
               </p>
             </ScrollReveal>
             <ScrollReveal delay={200}>
               <p>
-                Our clients are companies building the future — technology startups, AI companies,
-                digital platforms, and growth-stage enterprises navigating complex regulatory
-                environments and global markets.
+                Rather than approaching legal matters in silos, we provide coordinated and end-to-end
+                legal support, helping clients manage both day-to-day legal requirements and complex
+                legal challenges through one trusted legal partner.
               </p>
             </ScrollReveal>
           </div>
@@ -68,9 +67,8 @@ export default function AboutPage() {
             <div className="border-t-2 border-navy pt-8 px-6 pb-6 hover:shadow-md hover:-translate-y-1 transition-all duration-300">
               <h3 className="font-heading text-2xl font-semibold text-navy mb-4">Our Vision</h3>
               <p className="text-slate-600 leading-relaxed">
-                To redefine legal advisory by embedding strategic thinking at every level of
-                counsel — transforming legal services from reactive problem-solving into proactive
-                business architecture.
+                To make legal support more strategic, practical, and business-aligned, so companies
+                can treat legal as a foundation for growth, not just a response to risk.
               </p>
             </div>
           </ScrollReveal>
@@ -78,9 +76,9 @@ export default function AboutPage() {
             <div className="border-t-2 border-gold pt-8 px-6 pb-6 hover:shadow-md hover:-translate-y-1 transition-all duration-300">
               <h3 className="font-heading text-2xl font-semibold text-navy mb-4">Our Mission</h3>
               <p className="text-slate-600 leading-relaxed">
-                To provide structured legal counsel that supports global scalability, operational
-                resilience, and strategic growth — empowering companies to build with confidence
-                across borders and industries.
+                To provide businesses with end-to-end legal support across formation, structuring,
+                contracts, compliance, disputes, and litigation, delivered with clarity, ownership,
+                and commercial understanding.
               </p>
             </div>
           </ScrollReveal>
@@ -97,23 +95,24 @@ export default function AboutPage() {
             </h2>
           </ScrollReveal>
           <ScrollReveal delay={100}>
-            <p className="text-slate-600 text-[1.05rem] mt-6 max-w-[580px] leading-relaxed">
-              Our advisory framework is built on five integrated layers — each designed to reinforce
-              the others, creating a comprehensive legal infrastructure that grows with your business.
+            <p className="text-slate-600 text-[1.05rem] mt-6 max-w-[580px] leading-relaxed font-medium">
+              Our service model is built on five integrated layers — together covering the core legal
+              needs of a growing business, from formation and compliance to contracts, operations,
+              and dispute readiness.
             </p>
           </ScrollReveal>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-5 gap-0">
           {[
-            { num: "01", title: "Foundation", desc: "Corporate entity design and governance structure" },
-            { num: "02", title: "Compliance", desc: "Regulatory mapping and jurisdictional positioning" },
-            { num: "03", title: "Commercial", desc: "Contract frameworks and commercial governance" },
-            { num: "04", title: "Operations", desc: "Internal policies and operational controls" },
-            { num: "05", title: "Protection", desc: "Risk mitigation and dispute readiness" },
+            { num: "01", title: "Foundation", desc: "Company formation, structuring, and governance" },
+            { num: "02", title: "Compliance", desc: "Regulatory mapping, compliance, and jurisdictional positioning" },
+            { num: "03", title: "Commercial", desc: "Contracts, commercial documentation, and transaction support" },
+            { num: "04", title: "Operations", desc: "Internal policies, processes, and operational legal controls" },
+            { num: "05", title: "Protection", desc: "Risk mitigation, disputes, and litigation readiness" },
           ].map((layer, i) => (
             <ScrollReveal key={layer.num} delay={i * 80}>
               <div className="py-8 md:px-6 first:md:pl-0 last:md:pr-0 border-t border-line md:border-t-0 md:border-l md:first:border-l-0">
-                <span className="font-heading text-2xl text-navy/20 font-bold">{layer.num}</span>
+                <span className="font-heading text-2xl text-navy/50 font-bold">{layer.num}</span>
                 <h3 className="font-heading text-lg font-semibold text-navy mt-3 mb-2">{layer.title}</h3>
                 <p className="text-slate-500 text-[13px] leading-relaxed">{layer.desc}</p>
               </div>
@@ -180,12 +179,13 @@ export default function AboutPage() {
         <div className="max-w-[700px]">
           <ScrollReveal>
             <h2 className="font-heading text-3xl md:text-[2.5rem] leading-[1.2] text-navy tracking-tight mb-6">
-              Ready to Build Your <span className="italic font-normal">Legal Framework</span>?
+              Ready to Strengthen Your <span className="italic font-normal">Legal Foundation</span>?
             </h2>
           </ScrollReveal>
           <ScrollReveal delay={100}>
             <p className="text-slate-600 leading-relaxed mb-10 max-w-[520px]">
-              Speak with our team about how CORPRESC LEGAL can support your company&apos;s growth.
+              Speak with our team about how CORPRESC LEGAL can support your business across
+              structuring, contracts, compliance, disputes, and ongoing legal requirements.
             </p>
           </ScrollReveal>
           <ScrollReveal delay={200}>
@@ -193,7 +193,7 @@ export default function AboutPage() {
               href="/contact"
               className="btn-shine group bg-navy text-white px-8 py-3 text-[13px] font-medium inline-flex items-center gap-2 hover:bg-navy-dark transition-colors duration-300"
             >
-              Book a Legal Strategy Session
+              Book a Consultation
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>

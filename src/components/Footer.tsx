@@ -106,10 +106,10 @@ export default function Footer() {
         <div className="border-t border-line mt-16 pt-8">
           <p className="text-[12px] font-bold tracking-[0.15em] uppercase text-navy/50 mb-4">Offices</p>
           <div className="flex flex-wrap items-center gap-x-8 gap-y-2">
-            {["New Delhi", "Mumbai", "Bangalore", "London", "Dubai"].map((city, i) => (
+            {["New Delhi", "Gurugram", "Bangalore", "London"].map((city, i) => (
               <span key={city} className="flex items-center gap-3 text-slate-600 text-[14px]">
                 {city}
-                {i < 4 && <span className="hidden sm:inline text-slate-300">|</span>}
+                {i < 3 && <span className="hidden sm:inline text-slate-300">|</span>}
               </span>
             ))}
           </div>

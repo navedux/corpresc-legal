@@ -80,7 +80,7 @@ export default function ServicesPage() {
               className="group grid grid-cols-1 lg:grid-cols-12 gap-12 py-16 border-t border-line hover:bg-navy/[0.02] hover:px-4 transition-all duration-300 scroll-mt-24"
             >
               <div className="lg:col-span-5">
-                <span className="number-accent font-heading text-sm text-navy/25 font-bold">
+                <span className="number-accent font-heading text-sm text-navy/45 font-bold">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 <h2 className="font-heading text-2xl md:text-[1.75rem] font-semibold text-navy mt-3 mb-4 leading-snug">

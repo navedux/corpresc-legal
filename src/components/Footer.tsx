@@ -105,7 +105,7 @@ export default function Footer() {
         {/* Offices */}
         <div className="border-t border-line mt-16 pt-8">
           <p className="text-[13px] font-bold tracking-[0.15em] uppercase text-navy/70 mb-6">Offices</p>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
             {["New Delhi", "Gurugram", "Bangalore", "London"].map((city) => (
               <span key={city} className="text-slate-700 text-[15px] font-medium">
                 {city}
